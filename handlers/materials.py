@@ -181,42 +181,9 @@ async def video_detail(callback: CallbackQuery, state: FSMContext):
 
 
 @router.callback_query(F.data == "menu_media")
-async def menu_media(callback: CallbackQuery, bot: Bot):
-    user = await db.get_user(callback.from_user.id)
-    place, level = _user_place_level(user)
-    materials = await db.get_materials(place, level)
-
-    if not materials:
-        # fallback — каталог видео со sportkuznica
-        stats = vc.catalog_stats()
-        if stats["total"]:
-            await callback.message.edit_text(
-                "🎥 <b>Материалы</b>\n\n"
-                "Свои фото/видео тренера пока не добавлены.\n"
-                f"Но есть каталог техники: <b>{stats['with_video']}</b> видео с sportkuznica.com.\n\n"
-                "Открой «🎬 Видео упражнений» или нажми кнопку ниже.",
-                reply_markup=InlineKeyboardMarkup(
-                    inline_keyboard=[
-                        [InlineKeyboardButton(text="🎬 Видео упражнений", callback_data="menu_videos")],
-                        [InlineKeyboardButton(text="⬅️ В меню", callback_data="menu_back")],
-                    ]
-                ),
-            )
-        else:
-            await callback.message.edit_text(
-                "🎥 <b>Материалы</b>\n\n"
-                "Фото и видео для твоего уровня и места тренировок пока не добавлены. "
-                "Загляни сюда позже — тренер обязательно что-то добавит.",
-                reply_markup=kb.back_to_menu_kb(),
-            )
-        await callback.answer()
-        return
-
-    await callback.message.edit_text(
-        f"🎥 <b>Материалы — {TRAINING_PLACES.get(place, place)}, {LEVELS.get(level, level)}</b>\n\n"
-        f"Отправляю {len(materials)} материал(ов) ⬇️",
-        reply_markup=kb.back_to_menu_kb(),
-    )
+async def menu_media(callback: CallbackQuery, state: FSMContext, bot: Bot):
+    """Кнопка «Материалы» убрана из меню — старые сообщения ведём в каталог видео."""
+    await menu_videos(callback, state)
     await callback.answer()
 
     for m in materials:

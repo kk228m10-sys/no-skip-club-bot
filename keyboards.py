@@ -83,7 +83,6 @@ def main_menu_kb():
         [InlineKeyboardButton(text="⚙️ Изменить план (уровень/дни/место/вид)", callback_data="menu_settings")],
         [InlineKeyboardButton(text="📋 Упражнения и техника", callback_data="menu_exercises")],
         [InlineKeyboardButton(text="🎬 Видео упражнений", callback_data="menu_videos")],
-        [InlineKeyboardButton(text="🎥 Материалы (фото/видео)", callback_data="menu_media")],
         [InlineKeyboardButton(text="📸 Подтвердить тренировку", callback_data="menu_confirm_photo")],
         [InlineKeyboardButton(text="🥗 Питание", callback_data="menu_nutrition")],
         [InlineKeyboardButton(text="📅 Записаться на созвон", callback_data="menu_booking")],

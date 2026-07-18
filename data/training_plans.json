@@ -9,28 +9,36 @@
        "alt": "Обычные прыжки на месте",
        "sets_display": "3×10–12 раз",
        "weight": "Свой вес",
-       "rest": "60–75 сек"
+       "rest": "60–75 сек",
+       "video_url": "https://www.youtube.com/watch?v=g1GmVoJkUaQ",
+       "video_title": "Бег сгибая ноги назад, показ"
       },
       {
        "name": "Прыжки в длину с места",
        "alt": "Прыжки на месте",
        "sets_display": "3×6–8 раз",
        "weight": "Свой вес",
-       "rest": "75–90 сек"
+       "rest": "75–90 сек",
+       "video_url": "https://www.youtube.com/watch?v=qEpCvxPjoP0",
+       "video_title": "Прыжки на тумбу"
       },
       {
        "name": "Приседания с выпрыгиванием вверх",
        "alt": "Обычные приседания",
        "sets_display": "3×6–8 раз",
        "weight": "Свой вес",
-       "rest": "75–90 сек"
+       "rest": "75–90 сек",
+       "video_url": "https://www.youtube.com/watch?v=VYvnjkfIiSU",
+       "video_title": "Приседания плие"
       },
       {
        "name": "Подъём на низкую коробку (или ступеньку) с двух ног",
        "alt": "Простые подъёмы на возвышение",
        "sets_display": "3×8–10 раз",
        "weight": "Свой вес",
-       "rest": "60–75 сек"
+       "rest": "60–75 сек",
+       "video_url": "https://www.youtube.com/watch?v=qEpCvxPjoP0",
+       "video_title": "Прыжки на тумбу"
       },
       {
        "name": "Прыжки через низкое препятствие (или линию)",
@@ -57,28 +65,36 @@
        "alt": "Бросок обычного мяча",
        "sets_display": "3×6–8 раз",
        "weight": "Лёгкий мяч 2–4 кг",
-       "rest": "60–75 сек"
+       "rest": "60–75 сек",
+       "video_url": "https://www.youtube.com/watch?v=PlUSQt9ppjQ",
+       "video_title": "Броски медбола (Wall Ball)"
       },
       {
        "name": "Бросок мяча через голову назад",
        "alt": "Бросок мяча вперёд",
        "sets_display": "3×6–8 раз",
        "weight": "Лёгкий мяч 2–4 кг",
-       "rest": "60–75 сек"
+       "rest": "60–75 сек",
+       "video_url": "https://www.youtube.com/watch?v=PlUSQt9ppjQ",
+       "video_title": "Броски медбола (Wall Ball)"
       },
       {
        "name": "Планка с быстрым касанием плеч поочерёдно",
        "alt": "Обычная планка",
        "sets_display": "3×8–10 касаний на сторону",
        "weight": "Свой вес",
-       "rest": "60 сек"
+       "rest": "60 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       },
       {
        "name": "Скручивания с быстрым подъёмом корпуса",
        "alt": "Обычные скручивания",
        "sets_display": "3×10–12 раз",
        "weight": "Свой вес",
-       "rest": "60 сек"
+       "rest": "60 сек",
+       "video_url": "https://www.youtube.com/watch?v=Sl-P_8q1DI8",
+       "video_title": "Лучшие упражнения для пресса - топ 10."
       }
      ],
      "День 3 — Смешанная взрывная тренировка (круговая)": [
@@ -87,7 +103,9 @@
        "alt": "Обычные прыжки",
        "sets_display": "10–12 раз",
        "weight": "",
-       "rest": "30–45 сек"
+       "rest": "30–45 сек",
+       "video_url": "https://www.youtube.com/watch?v=g1GmVoJkUaQ",
+       "video_title": "Бег сгибая ноги назад, показ"
       },
       {
        "name": "Отжимания с хлопком (или быстрые отжимания)",
@@ -103,28 +121,36 @@
        "alt": "Прыжки на месте",
        "sets_display": "6–8 раз",
        "weight": "",
-       "rest": "30–45 сек"
+       "rest": "30–45 сек",
+       "video_url": "https://www.youtube.com/watch?v=qEpCvxPjoP0",
+       "video_title": "Прыжки на тумбу"
       },
       {
        "name": "Бросок мяча от груди вперёд",
        "alt": "Бросок обычного мяча",
        "sets_display": "6–8 раз",
        "weight": "",
-       "rest": "30–45 сек"
+       "rest": "30–45 сек",
+       "video_url": "https://www.youtube.com/watch?v=PlUSQt9ppjQ",
+       "video_title": "Броски медбола (Wall Ball)"
       },
       {
        "name": "Подъём на низкую коробку",
        "alt": "Простые подъёмы",
        "sets_display": "8–10 раз",
        "weight": "",
-       "rest": "30–45 сек"
+       "rest": "30–45 сек",
+       "video_url": "https://www.youtube.com/watch?v=qEpCvxPjoP0",
+       "video_title": "Прыжки на тумбу"
       },
       {
        "name": "Планка с касанием плеч",
        "alt": "Обычная планка",
        "sets_display": "8 касаний на сторону",
        "weight": "",
-       "rest": "30–45 сек"
+       "rest": "30–45 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       }
      ]
     },
@@ -135,28 +161,36 @@
        "alt": "Обычные прыжки на месте",
        "sets_display": "3×10–12 раз",
        "weight": "Свой вес",
-       "rest": "60–75 сек"
+       "rest": "60–75 сек",
+       "video_url": "https://www.youtube.com/watch?v=g1GmVoJkUaQ",
+       "video_title": "Бег сгибая ноги назад, показ"
       },
       {
        "name": "Прыжки в длину с места",
        "alt": "Прыжки на месте",
        "sets_display": "3×6–8 раз",
        "weight": "Свой вес",
-       "rest": "75–90 сек"
+       "rest": "75–90 сек",
+       "video_url": "https://www.youtube.com/watch?v=qEpCvxPjoP0",
+       "video_title": "Прыжки на тумбу"
       },
       {
        "name": "Приседания с выпрыгиванием вверх",
        "alt": "Обычные приседания",
        "sets_display": "3×6–8 раз",
        "weight": "Свой вес",
-       "rest": "75–90 сек"
+       "rest": "75–90 сек",
+       "video_url": "https://www.youtube.com/watch?v=VYvnjkfIiSU",
+       "video_title": "Приседания плие"
       },
       {
        "name": "Подъём на низкую коробку с двух ног",
        "alt": "Простые подъёмы на возвышение",
        "sets_display": "3×8–10 раз",
        "weight": "Свой вес",
-       "rest": "60–75 сек"
+       "rest": "60–75 сек",
+       "video_url": "https://www.youtube.com/watch?v=qEpCvxPjoP0",
+       "video_title": "Прыжки на тумбу"
       },
       {
        "name": "Прыжки через низкое препятствие",
@@ -183,28 +217,36 @@
        "alt": "Бросок обычного мяча",
        "sets_display": "3×6–8 раз",
        "weight": "Лёгкий мяч 2–4 кг",
-       "rest": "60–75 сек"
+       "rest": "60–75 сек",
+       "video_url": "https://www.youtube.com/watch?v=PlUSQt9ppjQ",
+       "video_title": "Броски медбола (Wall Ball)"
       },
       {
        "name": "Бросок мяча через голову назад",
        "alt": "Бросок мяча вперёд",
        "sets_display": "3×6–8 раз",
        "weight": "Лёгкий мяч 2–4 кг",
-       "rest": "60–75 сек"
+       "rest": "60–75 сек",
+       "video_url": "https://www.youtube.com/watch?v=PlUSQt9ppjQ",
+       "video_title": "Броски медбола (Wall Ball)"
       },
       {
        "name": "Планка с быстрым касанием плеч",
        "alt": "Обычная планка",
        "sets_display": "3×8–10 касаний на сторону",
        "weight": "Свой вес",
-       "rest": "60 сек"
+       "rest": "60 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       },
       {
        "name": "Скручивания с быстрым подъёмом",
        "alt": "Обычные скручивания",
        "sets_display": "3×10–12 раз",
        "weight": "Свой вес",
-       "rest": "60 сек"
+       "rest": "60 сек",
+       "video_url": "https://www.youtube.com/watch?v=Sl-P_8q1DI8",
+       "video_title": "Лучшие упражнения для пресса - топ 10."
       }
      ]
     },
@@ -215,28 +257,36 @@
        "alt": "Обычные прыжки на месте",
        "sets_display": "3×10–12 раз",
        "weight": "Свой вес",
-       "rest": "60–75 сек"
+       "rest": "60–75 сек",
+       "video_url": "https://www.youtube.com/watch?v=g1GmVoJkUaQ",
+       "video_title": "Бег сгибая ноги назад, показ"
       },
       {
        "name": "Прыжки в длину с места",
        "alt": "Прыжки на месте",
        "sets_display": "3×6–8 раз",
        "weight": "Свой вес",
-       "rest": "75–90 сек"
+       "rest": "75–90 сек",
+       "video_url": "https://www.youtube.com/watch?v=qEpCvxPjoP0",
+       "video_title": "Прыжки на тумбу"
       },
       {
        "name": "Приседания с выпрыгиванием вверх",
        "alt": "Обычные приседания",
        "sets_display": "3×6–8 раз",
        "weight": "Свой вес",
-       "rest": "75–90 сек"
+       "rest": "75–90 сек",
+       "video_url": "https://www.youtube.com/watch?v=VYvnjkfIiSU",
+       "video_title": "Приседания плие"
       },
       {
        "name": "Подъём на низкую коробку с двух ног",
        "alt": "Простые подъёмы",
        "sets_display": "3×8–10 раз",
        "weight": "Свой вес",
-       "rest": "60–75 сек"
+       "rest": "60–75 сек",
+       "video_url": "https://www.youtube.com/watch?v=qEpCvxPjoP0",
+       "video_title": "Прыжки на тумбу"
       },
       {
        "name": "Прыжки через низкое препятствие",
@@ -263,28 +313,36 @@
        "alt": "Бросок обычного мяча",
        "sets_display": "3×6–8 раз",
        "weight": "Лёгкий мяч 2–4 кг",
-       "rest": "60–75 сек"
+       "rest": "60–75 сек",
+       "video_url": "https://www.youtube.com/watch?v=PlUSQt9ppjQ",
+       "video_title": "Броски медбола (Wall Ball)"
       },
       {
        "name": "Бросок мяча через голову назад",
        "alt": "Бросок мяча вперёд",
        "sets_display": "3×6–8 раз",
        "weight": "Лёгкий мяч 2–4 кг",
-       "rest": "60–75 сек"
+       "rest": "60–75 сек",
+       "video_url": "https://www.youtube.com/watch?v=PlUSQt9ppjQ",
+       "video_title": "Броски медбола (Wall Ball)"
       },
       {
        "name": "Планка с быстрым касанием плеч",
        "alt": "Обычная планка",
        "sets_display": "3×8–10 касаний на сторону",
        "weight": "Свой вес",
-       "rest": "60 сек"
+       "rest": "60 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       },
       {
        "name": "Скручивания с быстрым подъёмом",
        "alt": "Обычные скручивания",
        "sets_display": "3×10–12 раз",
        "weight": "Свой вес",
-       "rest": "60 сек"
+       "rest": "60 сек",
+       "video_url": "https://www.youtube.com/watch?v=Sl-P_8q1DI8",
+       "video_title": "Лучшие упражнения для пресса - топ 10."
       }
      ],
      "День 3 (Смешанная круговая тренировка)": [
@@ -293,7 +351,9 @@
        "alt": "Обычные прыжки",
        "sets_display": "10–12 раз",
        "weight": "",
-       "rest": "30–45 сек"
+       "rest": "30–45 сек",
+       "video_url": "https://www.youtube.com/watch?v=g1GmVoJkUaQ",
+       "video_title": "Бег сгибая ноги назад, показ"
       },
       {
        "name": "Отжимания с хлопком",
@@ -309,49 +369,63 @@
        "alt": "Прыжки на месте",
        "sets_display": "6–8 раз",
        "weight": "",
-       "rest": "30–45 сек"
+       "rest": "30–45 сек",
+       "video_url": "https://www.youtube.com/watch?v=qEpCvxPjoP0",
+       "video_title": "Прыжки на тумбу"
       },
       {
        "name": "Бросок мяча от груди вперёд",
        "alt": "Бросок обычного мяча",
        "sets_display": "6–8 раз",
        "weight": "",
-       "rest": "30–45 сек"
+       "rest": "30–45 сек",
+       "video_url": "https://www.youtube.com/watch?v=PlUSQt9ppjQ",
+       "video_title": "Броски медбола (Wall Ball)"
       },
       {
        "name": "Подъём на низкую коробку",
        "alt": "Простые подъёмы",
        "sets_display": "8–10 раз",
        "weight": "",
-       "rest": "30–45 сек"
+       "rest": "30–45 сек",
+       "video_url": "https://www.youtube.com/watch?v=qEpCvxPjoP0",
+       "video_title": "Прыжки на тумбу"
       },
       {
        "name": "Планка с касанием плеч",
        "alt": "Обычная планка",
        "sets_display": "8 касаний на сторону",
        "weight": "",
-       "rest": "30–45 сек"
+       "rest": "30–45 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       },
       {
        "name": "Ходьба на месте или на дорожке",
        "alt": "—",
        "sets_display": "1×6–8 минут",
        "weight": "Интенсивность —",
-       "rest": "—"
+       "rest": "—",
+       "video_url": "https://www.youtube.com/watch?v=JFQ9FxPceRY",
+       "video_title": "Бег - средний темп"
       },
       {
        "name": "Круговые движения руками и ногами + наклоны",
        "alt": "—",
        "sets_display": "2×10 раз в каждую сторону",
        "weight": "Свой вес",
-       "rest": "30 сек"
+       "rest": "30 сек",
+       "video_url": "https://www.youtube.com/watch?v=jJXySJRCmLM",
+       "video_title": "Кардио разминка перед тренировкой в зале"
       },
       {
        "name": "Прыжки на месте с высоким подниманием коленей (медленно и технично)",
        "alt": "Обычные прыжки",
        "sets_display": "2×8–10 раз",
        "weight": "Свой вес",
-       "rest": "60 сек"
+       "rest": "60 сек",
+       "video_url": "https://www.youtube.com/watch?v=g1GmVoJkUaQ",
+       "video_title": "Бег сгибая ноги назад, показ"
       },
       {
        "name": "Отжимания с акцентом на скорость (но без хлопка)",
@@ -393,7 +467,9 @@
        "alt": "мяча двумя",
        "sets_display": "4×6–8 раз Мяч 5–8",
        "weight": "кг",
-       "rest": "60–75 сек"
+       "rest": "60–75 сек",
+       "video_url": "https://www.youtube.com/watch?v=PlUSQt9ppjQ",
+       "video_title": "Броски медбола (Wall Ball)"
       }
      ]
     },
@@ -424,14 +500,18 @@
        "alt": "мяча двумя",
        "sets_display": "4×6–8 раз Мяч 5–8",
        "weight": "кг",
-       "rest": "60–75 сек"
+       "rest": "60–75 сек",
+       "video_url": "https://www.youtube.com/watch?v=PlUSQt9ppjQ",
+       "video_title": "Броски медбола (Wall Ball)"
       },
       {
        "name": "Бросок медицинского мяча через Бросок голову назад",
        "alt": "мяча вперёд",
        "sets_display": "3×6–8 раз Мяч 5–8",
        "weight": "кг",
-       "rest": "60–75 сек"
+       "rest": "60–75 сек",
+       "video_url": "https://www.youtube.com/watch?v=PlUSQt9ppjQ",
+       "video_title": "Броски медбола (Wall Ball)"
       }
      ]
     },
@@ -462,14 +542,18 @@
        "alt": "мяча двумя",
        "sets_display": "4×6–8 раз Мяч 5–8",
        "weight": "кг",
-       "rest": "60–75 сек"
+       "rest": "60–75 сек",
+       "video_url": "https://www.youtube.com/watch?v=PlUSQt9ppjQ",
+       "video_title": "Броски медбола (Wall Ball)"
       },
       {
        "name": "Бросок медицинского мяча через Бросок голову назад",
        "alt": "мяча вперёд",
        "sets_display": "3×6–8 раз Мяч 5–8",
        "weight": "кг",
-       "rest": "60–75 сек"
+       "rest": "60–75 сек",
+       "video_url": "https://www.youtube.com/watch?v=PlUSQt9ppjQ",
+       "video_title": "Броски медбола (Wall Ball)"
       }
      ],
      "День 3 (Плотная круговая тренировка)": [
@@ -478,14 +562,18 @@
        "alt": "",
        "sets_display": "1×Интенсивность 7–10 минут —",
        "weight": "",
-       "rest": "—"
+       "rest": "—",
+       "video_url": "https://www.youtube.com/watch?v=JFQ9FxPceRY",
+       "video_title": "Бег - средний темп"
       },
       {
        "name": "Круговые движения руками, ногами — + наклоны корпуса",
        "alt": "",
        "sets_display": "2×10–12 раз в Свой каждую сторону",
        "weight": "вес",
-       "rest": "30 сек"
+       "rest": "30 сек",
+       "video_url": "https://www.youtube.com/watch?v=jJXySJRCmLM",
+       "video_title": "Кардио разминка перед тренировкой в зале"
       },
       {
        "name": "Прыжки на тумбу (средняя высота, Прыжки технично)",
@@ -510,7 +598,9 @@
        "alt": "мяча двумя",
        "sets_display": "2×6–8 раз Мяч 4–6",
        "weight": "кг",
-       "rest": "60 сек"
+       "rest": "60 сек",
+       "video_url": "https://www.youtube.com/watch?v=PlUSQt9ppjQ",
+       "video_title": "Броски медбола (Wall Ball)"
       }
      ]
     }
@@ -523,14 +613,18 @@
        "alt": "на месте с подниманием",
        "sets_display": "4×6–8 раз Свой",
        "weight": "вес",
-       "rest": "75–90 сек"
+       "rest": "75–90 сек",
+       "video_url": "https://www.youtube.com/watch?v=lCCZkFzvoK8",
+       "video_title": "Рывок двух гирь"
       },
       {
        "name": "Прыжки в длину с места Прыжки",
        "alt": "на месте",
        "sets_display": "4×6–8 раз Свой",
        "weight": "вес",
-       "rest": "75–90 сек"
+       "rest": "75–90 сек",
+       "video_url": "https://www.youtube.com/watch?v=qEpCvxPjoP0",
+       "video_title": "Прыжки на тумбу"
       },
       {
        "name": "Подъём на коробку с одной ноги Подъём (поочерёдно) двух",
@@ -557,21 +651,27 @@
        "alt": "обычного мяча",
        "sets_display": "4×6–8 раз Мяч 4–6",
        "weight": "кг",
-       "rest": "60–75 сек"
+       "rest": "60–75 сек",
+       "video_url": "https://www.youtube.com/watch?v=PlUSQt9ppjQ",
+       "video_title": "Броски медбола (Wall Ball)"
       },
       {
        "name": "Бросок медицинского мяча через Бросок голову назад",
        "alt": "мяча вперёд",
        "sets_display": "3×6–8 раз Мяч 4–6",
        "weight": "кг",
-       "rest": "60–75 сек"
+       "rest": "60–75 сек",
+       "video_url": "https://www.youtube.com/watch?v=PlUSQt9ppjQ",
+       "video_title": "Броски медбола (Wall Ball)"
       },
       {
        "name": "Бросок медицинского мяча одной Бросок рукой (вращение корпуса)",
        "alt": "двумя руками",
        "sets_display": "3×6–8 раз на Мяч 3–5 сторону",
        "weight": "кг",
-       "rest": "60 сек"
+       "rest": "60 сек",
+       "video_url": "https://www.youtube.com/watch?v=PlUSQt9ppjQ",
+       "video_title": "Броски медбола (Wall Ball)"
       }
      ]
     },
@@ -582,14 +682,18 @@
        "alt": "на месте с подниманием",
        "sets_display": "4×6–8 раз Свой",
        "weight": "вес",
-       "rest": "75–90 сек"
+       "rest": "75–90 сек",
+       "video_url": "https://www.youtube.com/watch?v=lCCZkFzvoK8",
+       "video_title": "Рывок двух гирь"
       },
       {
        "name": "Прыжки в длину с места Прыжки",
        "alt": "на месте",
        "sets_display": "4×6–8 раз Свой",
        "weight": "вес",
-       "rest": "75–90 сек"
+       "rest": "75–90 сек",
+       "video_url": "https://www.youtube.com/watch?v=qEpCvxPjoP0",
+       "video_title": "Прыжки на тумбу"
       },
       {
        "name": "Подъём на коробку с одной ноги Подъём (поочерёдно)",
@@ -616,28 +720,36 @@
        "alt": "обычного мяча",
        "sets_display": "4×6–8 раз Мяч 4–6",
        "weight": "кг",
-       "rest": "60–75 сек"
+       "rest": "60–75 сек",
+       "video_url": "https://www.youtube.com/watch?v=PlUSQt9ppjQ",
+       "video_title": "Броски медбола (Wall Ball)"
       },
       {
        "name": "Бросок медицинского мяча через Бросок голову назад",
        "alt": "мяча вперёд",
        "sets_display": "3×6–8 раз Мяч 4–6",
        "weight": "кг",
-       "rest": "60–75 сек"
+       "rest": "60–75 сек",
+       "video_url": "https://www.youtube.com/watch?v=PlUSQt9ppjQ",
+       "video_title": "Броски медбола (Wall Ball)"
       },
       {
        "name": "Бросок медицинского мяча одной Бросок рукой (вращение корпуса)",
        "alt": "двумя руками",
        "sets_display": "3×6–8 раз на Мяч 3–5 сторону",
        "weight": "кг",
-       "rest": "60 сек"
+       "rest": "60 сек",
+       "video_url": "https://www.youtube.com/watch?v=PlUSQt9ppjQ",
+       "video_title": "Броски медбола (Wall Ball)"
       },
       {
        "name": "Планка с быстрым касанием плеч + Планка отжимание плеч",
        "alt": "с касанием",
        "sets_display": "3×6–8 касаний Свой + 4–6 отжиманий",
        "weight": "вес",
-       "rest": "60 сек"
+       "rest": "60 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       }
      ]
     },
@@ -657,7 +769,9 @@
        "alt": "Прыжки на месте",
        "sets_display": "4×6–8 раз",
        "weight": "Свой вес",
-       "rest": "75–90 сек"
+       "rest": "75–90 сек",
+       "video_url": "https://www.youtube.com/watch?v=qEpCvxPjoP0",
+       "video_title": "Прыжки на тумбу"
       },
       {
        "name": "Приседания с выпрыгиванием вверх (с лёгкими гантелями)",
@@ -711,14 +825,18 @@
        "alt": "Прыжки на месте",
        "sets_display": "6–8 раз",
        "weight": "",
-       "rest": "30–45 сек"
+       "rest": "30–45 сек",
+       "video_url": "https://www.youtube.com/watch?v=qEpCvxPjoP0",
+       "video_title": "Прыжки на тумбу"
       },
       {
        "name": "Бросок мяча от груди вперёд",
        "alt": "Бросок обычного мяча",
        "sets_display": "6–8 раз",
        "weight": "",
-       "rest": "30–45 сек"
+       "rest": "30–45 сек",
+       "video_url": "https://www.youtube.com/watch?v=PlUSQt9ppjQ",
+       "video_title": "Броски медбола (Wall Ball)"
       },
       {
        "name": "Подъём на коробку с одной ноги",
@@ -734,7 +852,9 @@
        "alt": "Бросок двумя руками",
        "sets_display": "6 раз на сторону",
        "weight": "",
-       "rest": "30–45 сек"
+       "rest": "30–45 сек",
+       "video_url": "https://www.youtube.com/watch?v=ldeNlzR8pho",
+       "video_title": "Толчок одной гири"
       }
      ],
      "День 3 (Плотная круговая тренировка)": [
@@ -743,14 +863,18 @@
        "alt": "—",
        "sets_display": "1×7–10 минут",
        "weight": "Интенсивность — —",
-       "rest": "—"
+       "rest": "—",
+       "video_url": "https://www.youtube.com/watch?v=JFQ9FxPceRY",
+       "video_title": "Бег - средний темп"
       },
       {
        "name": "Круговые движения руками, ногами + наклоны корпуса",
        "alt": "—",
        "sets_display": "2×10–12 раз в каждую сторону",
        "weight": "Свой вес",
-       "rest": "30 сек"
+       "rest": "30 сек",
+       "video_url": "https://www.youtube.com/watch?v=jJXySJRCmLM",
+       "video_title": "Кардио разминка перед тренировкой в зале"
       },
       {
        "name": "Прыжки на коробку (низкая высота, технично)",
@@ -775,14 +899,18 @@
        "alt": "Бросок обычного мяча",
        "sets_display": "2×6–8 раз",
        "weight": "Мяч 3–4 кг",
-       "rest": "60 сек"
+       "rest": "60 сек",
+       "video_url": "https://www.youtube.com/watch?v=PlUSQt9ppjQ",
+       "video_title": "Броски медбола (Wall Ball)"
       },
       {
        "name": "Планка с касанием плеч (медленно и контролируемо) Растяжка всего тела",
        "alt": "Обычная планка —",
        "sets_display": "2 1×6–8 касаний на сторону 7–10 минут",
        "weight": "Свой вес —",
-       "rest": "45 сек —"
+       "rest": "45 сек —",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       }
      ]
     }
@@ -797,7 +925,9 @@
        "alt": "",
        "sets_display": "3×12–15 раз Свой",
        "weight": "вес",
-       "rest": "45–60 сек"
+       "rest": "45–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=VYvnjkfIiSU",
+       "video_title": "Приседания плие"
       },
       {
        "name": "Выпады назад Делать выпады на месте, не шагая",
@@ -813,21 +943,27 @@
        "alt": "",
        "sets_display": "3×12–15 раз Свой",
        "weight": "вес",
-       "rest": "30–45 сек"
+       "rest": "30–45 сек",
+       "video_url": "https://www.youtube.com/watch?v=1epi9iFvpIA",
+       "video_title": "Мостик на двух ногах"
       },
       {
        "name": "Планка на руках Встать на колени и держать планку",
        "alt": "",
        "sets_display": "3×20–40 секунд Свой",
        "weight": "вес",
-       "rest": "30–45 сек"
+       "rest": "30–45 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       },
       {
        "name": "Упражнение на четвереньках Просто поднимать одну",
        "alt": "",
        "sets_display": "3×8–10 раз на Свой",
        "weight": "вес",
-       "rest": "30 сек"
+       "rest": "30 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       }
      ],
      "День 3 — Круговая тренировка (всё тело)": [
@@ -845,7 +981,9 @@
        "alt": "",
        "sets_display": "3×20–30 секунд Свой",
        "weight": "вес",
-       "rest": "30 сек"
+       "rest": "30 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       },
       {
        "name": "круга. Упражнение Как делать проще",
@@ -908,7 +1046,9 @@
        "alt": "",
        "sets_display": "3×20–30 секунд",
        "weight": "Свой вес",
-       "rest": "30 сек"
+       "rest": "30 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       },
       {
        "name": "Скручивания + подъём ног",
@@ -944,7 +1084,9 @@
        "alt": "",
        "sets_display": "3×12–15 раз",
        "weight": "Свой вес",
-       "rest": "30 сек"
+       "rest": "30 сек",
+       "video_url": "https://www.youtube.com/watch?v=1epi9iFvpIA",
+       "video_title": "Мостик на двух ногах"
       },
       {
        "name": "Подъём на носки",
@@ -969,7 +1111,9 @@
        "alt": "",
        "sets_display": "3×По 20 секунд",
        "weight": "Свой вес",
-       "rest": "30 сек"
+       "rest": "30 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       }
      ]
     },
@@ -980,21 +1124,27 @@
        "alt": "",
        "sets_display": "1×5–7 минут",
        "weight": "—",
-       "rest": "—"
+       "rest": "—",
+       "video_url": "https://www.youtube.com/watch?v=JFQ9FxPceRY",
+       "video_title": "Бег - средний темп"
       },
       {
        "name": "Круговые движения руками и ногами",
        "alt": "",
        "sets_display": "2×10 раз в каждую сторону",
        "weight": "Свой вес",
-       "rest": "30 сек"
+       "rest": "30 сек",
+       "video_url": "https://www.youtube.com/watch?v=jJXySJRCmLM",
+       "video_title": "Кардио разминка перед тренировкой в зале"
       },
       {
        "name": "Планка обычная и боковая",
        "alt": "",
        "sets_display": "3×20–30 секунд",
        "weight": "Свой вес",
-       "rest": "30 сек"
+       "rest": "30 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       },
       {
        "name": "Упражнение на четвереньках",
@@ -1010,14 +1160,18 @@
        "alt": "",
        "sets_display": "3×10–12 раз",
        "weight": "Свой вес",
-       "rest": "30 сек"
+       "rest": "30 сек",
+       "video_url": "https://www.youtube.com/watch?v=1epi9iFvpIA",
+       "video_title": "Мостик на двух ногах"
       },
       {
        "name": "Лёгкие отжимания от стены Растяжка всего тела",
        "alt": "",
        "sets_display": "2 1×8–10 раз 5–7 минут",
        "weight": "Свой вес —",
-       "rest": "45 сек —"
+       "rest": "45 сек —",
+       "video_url": "https://www.youtube.com/watch?v=zGddnFxqrsM",
+       "video_title": "Отжимания от пола. Отжимайся правильно!"
       }
      ]
     }
@@ -1039,7 +1193,9 @@
        "alt": "тяга на ногах",
        "sets_display": "3×8–10 раз на Гантели ногу",
        "weight": "8–12 кг",
-       "rest": "50–60 сек"
+       "rest": "50–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=oqh7hHMlNyU",
+       "video_title": "Мертвая тяга"
       },
       {
        "name": "Ягодичный мост со штангой или Ягодичный гантелью одной",
@@ -1055,7 +1211,9 @@
        "alt": "упражнение",
        "sets_display": "3×8–10 раз на Гантель",
        "weight": "2–5 кг",
-       "rest": "40 сек"
+       "rest": "40 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       }
      ],
      "День 3 — Плотная круговая тренировка (всё тело)": [
@@ -1064,14 +1222,18 @@
        "alt": "отжимания с на спине",
        "sets_display": "4×8–12 раз Свой 5–10",
        "weight": "вес или жилет кг",
-       "rest": "50–60 сек"
+       "rest": "50–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=zGddnFxqrsM",
+       "video_title": "Отжимания от пола. Отжимайся правильно!"
       },
       {
        "name": "Тяга гантели одной рукой в упоре Тяга на скамье одной",
        "alt": "нижнего блока рукой",
        "sets_display": "4×8–10 раз на Гантель руку",
        "weight": "10–16 кг",
-       "rest": "50–60 сек"
+       "rest": "50–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=DLpIrbhR3X8",
+       "video_title": "Тяга гантели в наклоне"
       },
       {
        "name": "Жим гантелей сидя над головой с Жим паузой",
@@ -1087,14 +1249,18 @@
        "alt": "гантелями в",
        "sets_display": "3×12–15 + 12–15 Гантели",
        "weight": "4–8 кг",
-       "rest": "40–50 сек"
+       "rest": "40–50 сек",
+       "video_url": "https://www.youtube.com/watch?v=-lSGNXL_jVI",
+       "video_title": "Разведение гантелей лежа"
       },
       {
        "name": "Планка с поочерёдным касанием Обычная плеч (в упоре) весом",
        "alt": "планка с",
        "sets_display": "3×30–45 секунд Свой",
        "weight": "вес или жилет",
-       "rest": "40 сек"
+       "rest": "40 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       },
       {
        "name": "полного круга отдохните 60–75 секунд Упражнение",
@@ -1112,14 +1278,18 @@
        "alt": "Отжимания с весом на спине",
        "sets_display": "4×8–12 раз",
        "weight": "Свой вес или жилет 5–10 кг",
-       "rest": "50 сек"
+       "rest": "50 сек",
+       "video_url": "https://www.youtube.com/watch?v=zGddnFxqrsM",
+       "video_title": "Отжимания от пола. Отжимайся правильно!"
       },
       {
        "name": "Тяга гантели одной рукой в упоре на скамье",
        "alt": "Тяга нижнего блока одной рукой",
        "sets_display": "4×8–10 раз на руку",
        "weight": "Гантель 10–16 кг",
-       "rest": "50 сек"
+       "rest": "50 сек",
+       "video_url": "https://www.youtube.com/watch?v=DLpIrbhR3X8",
+       "video_title": "Тяга гантели в наклоне"
       },
       {
        "name": "Жим гантелей сидя над головой с паузой",
@@ -1144,14 +1314,18 @@
        "alt": "Планка с весом",
        "sets_display": "3×30–45 секунд",
        "weight": "Свой вес или жилет",
-       "rest": "40 сек"
+       "rest": "40 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       },
       {
        "name": "Скручивания на римском стуле с поворотом",
        "alt": "Скручивания с гантелью",
        "sets_display": "3×12–15 на сторону",
        "weight": "Гантель 5–8 кг",
-       "rest": "40 сек"
+       "rest": "40 сек",
+       "video_url": "https://www.youtube.com/watch?v=Sl-P_8q1DI8",
+       "video_title": "Лучшие упражнения для пресса - топ 10."
       }
      ],
      "День 2 и День 4 — Ноги, ягодицы и координация": [
@@ -1169,14 +1343,18 @@
        "alt": "Румынская тяга на двух ногах",
        "sets_display": "3×8–10 раз на ногу",
        "weight": "Гантели 8–12 кг",
-       "rest": "50 сек"
+       "rest": "50 сек",
+       "video_url": "https://www.youtube.com/watch?v=oqh7hHMlNyU",
+       "video_title": "Мертвая тяга"
       },
       {
        "name": "Ягодичный мост со штангой",
        "alt": "Ягодичный мост с одной ногой",
        "sets_display": "4×10–12 раз",
        "weight": "Штанга 20–40 кг",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=1epi9iFvpIA",
+       "video_title": "Мостик на двух ногах"
       },
       {
        "name": "Копенгагенская планка",
@@ -1192,7 +1370,9 @@
        "alt": "Обычное на четвереньках",
        "sets_display": "3×8–10 раз на сторону",
        "weight": "Гантель 3–5 кг",
-       "rest": "40 сек"
+       "rest": "40 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       },
       {
        "name": "Подъём на носки стоя с гантелями",
@@ -1221,7 +1401,9 @@
        "alt": "тяга на ногах",
        "sets_display": "3×8–10 раз на Гантели ногу",
        "weight": "8–12 кг",
-       "rest": "50–60 сек"
+       "rest": "50–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=oqh7hHMlNyU",
+       "video_title": "Мертвая тяга"
       },
       {
        "name": "Ягодичный мост со штангой или Ягодичный гантелью одной",
@@ -1237,14 +1419,18 @@
        "alt": "планка с ноги",
        "sets_display": "3×25–40 сек на Свой сторону",
        "weight": "вес",
-       "rest": "40–50 сек"
+       "rest": "40–50 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       },
       {
        "name": "Планка с поочерёдным подъёмом Обычное руки и ноги четвереньках",
        "alt": "на",
        "sets_display": "3×8–10 раз на Гантель сторону",
        "weight": "3–5 кг",
-       "rest": "40 сек"
+       "rest": "40 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       }
      ],
      "День 2 (Верх тела и стабильность)": [
@@ -1253,14 +1439,18 @@
        "alt": "с весом на",
        "sets_display": "4×8–12 раз Свой 5–10",
        "weight": "вес или жилет кг",
-       "rest": "50–60 сек"
+       "rest": "50–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=zGddnFxqrsM",
+       "video_title": "Отжимания от пола. Отжимайся правильно!"
       },
       {
        "name": "Тяга гантели одной рукой в упоре Тяга на скамье одной",
        "alt": "нижнего блока рукой",
        "sets_display": "4×8–10 раз на Гантель руку",
        "weight": "10–16 кг",
-       "rest": "50–60 сек"
+       "rest": "50–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=DLpIrbhR3X8",
+       "video_title": "Тяга гантели в наклоне"
       },
       {
        "name": "Жим гантелей сидя над головой с Жим паузой",
@@ -1276,14 +1466,18 @@
        "alt": "в стороны",
        "sets_display": "3×12–15 + 12–15 Гантели",
        "weight": "4–8 кг",
-       "rest": "40–50 сек"
+       "rest": "40–50 сек",
+       "video_url": "https://www.youtube.com/watch?v=DLpIrbhR3X8",
+       "video_title": "Тяга гантели в наклоне"
       },
       {
        "name": "Планка с касанием плеч Планка поочерёдно",
        "alt": "с весом",
        "sets_display": "3×30–45 секунд Свой",
        "weight": "вес или жилет",
-       "rest": "40 сек"
+       "rest": "40 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       }
      ],
      "День 3 (Плотная круговая тренировка)": [
@@ -1292,28 +1486,36 @@
        "alt": "",
        "sets_display": "1×7–10 минут —",
        "weight": "",
-       "rest": "—"
+       "rest": "—",
+       "video_url": "https://www.youtube.com/watch?v=JFQ9FxPceRY",
+       "video_title": "Бег - средний темп"
       },
       {
        "name": "Круговые движения руками, — ногами + наклоны корпуса",
        "alt": "",
        "sets_display": "2×10–12 раз в Свой каждую сторону",
        "weight": "вес",
-       "rest": "30 сек"
+       "rest": "30 сек",
+       "video_url": "https://www.youtube.com/watch?v=jJXySJRCmLM",
+       "video_title": "Кардио разминка перед тренировкой в зале"
       },
       {
        "name": "Планка с поочерёдным подъёмом Обычная руки и ноги",
        "alt": "планка",
        "sets_display": "3×30–45 секунд Свой",
        "weight": "вес",
-       "rest": "40 сек"
+       "rest": "40 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       },
       {
        "name": "Планка с поочерёдным подъёмом Обычное руки и ноги (птица-собака)",
        "alt": "без веса",
        "sets_display": "3×8–10 раз на Гантель сторону",
        "weight": "2–4 кг",
-       "rest": "40 сек"
+       "rest": "40 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       },
       {
        "name": "Ягодичный мост с одной ногой Обычный мост",
@@ -1329,7 +1531,9 @@
        "alt": "отжимания",
        "sets_display": "2×10–12 раз Свой",
        "weight": "вес",
-       "rest": "50 сек"
+       "rest": "50 сек",
+       "video_url": "https://www.youtube.com/watch?v=zGddnFxqrsM",
+       "video_title": "Отжимания от пола. Отжимайся правильно!"
       }
      ]
     }
@@ -1351,28 +1555,36 @@
        "alt": "",
        "sets_display": "3×10–12 раз на ногу",
        "weight": "Гантели 6–12 кг",
-       "rest": "50–60 сек"
+       "rest": "50–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=8v4QoXor_bg",
+       "video_title": "Выпады + махи"
       },
       {
        "name": "Наклоны вперёд с гантелями Наклоны без веса (прямые ноги)",
        "alt": "",
        "sets_display": "4×10–12 раз",
        "weight": "Гантели 8–14 кг",
-       "rest": "50–60 сек"
+       "rest": "50–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=g1GmVoJkUaQ",
+       "video_title": "Бег сгибая ноги назад, показ"
       },
       {
        "name": "Ягодичный мост с гантелью на Ягодичный мост без бёдрах веса",
        "alt": "",
        "sets_display": "3×12–15 раз",
        "weight": "Гантель 10–20 кг",
-       "rest": "45–60 сек"
+       "rest": "45–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=1epi9iFvpIA",
+       "video_title": "Мостик на двух ногах"
       },
       {
        "name": "Планка с поочерёдным подъёмом Обычная планка руки",
        "alt": "",
        "sets_display": "3×25–35 секунд",
        "weight": "Свой вес",
-       "rest": "40 сек"
+       "rest": "40 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       }
      ],
      "День 2 — Верх тела и координация": [
@@ -1381,28 +1593,36 @@
        "alt": "",
        "sets_display": "4×8–12 раз",
        "weight": "Свой вес",
-       "rest": "50–60 сек"
+       "rest": "50–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=zGddnFxqrsM",
+       "video_title": "Отжимания от пола. Отжимайся правильно!"
       },
       {
        "name": "Тяга гантели одной рукой в упоре Тяга резинки к себе одной рукой",
        "alt": "",
        "sets_display": "4×10–12 раз на руку",
        "weight": "Гантель 6–12 кг",
-       "rest": "50–60 сек"
+       "rest": "50–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=DLpIrbhR3X8",
+       "video_title": "Тяга гантели в наклоне"
       },
       {
        "name": "Разведение гантелей в стороны Круговые движения лёжа руками стоя",
        "alt": "",
        "sets_display": "3×12–15 раз",
        "weight": "Гантели 3–6 кг",
-       "rest": "40–50 сек"
+       "rest": "40–50 сек",
+       "video_url": "https://www.youtube.com/watch?v=fgN2_x7sGAQ",
+       "video_title": "Рывок гантели"
       },
       {
        "name": "Планка с поочерёдным подъёмом Обычная планка руки",
        "alt": "",
        "sets_display": "3×25–35 секунд",
        "weight": "Свой вес",
-       "rest": "40 сек"
+       "rest": "40 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       }
      ]
     },
@@ -1413,7 +1633,9 @@
        "alt": "",
        "sets_display": "4×8–12 раз",
        "weight": "Свой вес",
-       "rest": "50 сек"
+       "rest": "50 сек",
+       "video_url": "https://www.youtube.com/watch?v=zGddnFxqrsM",
+       "video_title": "Отжимания от пола. Отжимайся правильно!"
       },
       {
        "name": "Тяга гантели одной рукой в упоре",
@@ -1447,7 +1669,9 @@
        "alt": "",
        "sets_display": "3×25–35 секунд",
        "weight": "Свой вес",
-       "rest": "40 сек"
+       "rest": "40 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       },
       {
        "name": "Скручивания с поворотом + подъём ног",
@@ -1474,14 +1698,18 @@
        "alt": "",
        "sets_display": "4×10–12 раз на ногу",
        "weight": "Гантели 6–12 кг",
-       "rest": "50 сек"
+       "rest": "50 сек",
+       "video_url": "https://www.youtube.com/watch?v=8v4QoXor_bg",
+       "video_title": "Выпады + махи"
       },
       {
        "name": "Наклоны вперёд с гантелями (прямые ноги)",
        "alt": "",
        "sets_display": "3×10–12 раз",
        "weight": "Гантели 8–14 кг",
-       "rest": "50 сек"
+       "rest": "50 сек",
+       "video_url": "https://www.youtube.com/watch?v=g1GmVoJkUaQ",
+       "video_title": "Бег сгибая ноги назад, показ"
       },
       {
        "name": "Ягодичный мост с гантелью на бёдрах",
@@ -1497,14 +1725,18 @@
        "alt": "",
        "sets_display": "3×25–35 секунд",
        "weight": "Свой вес",
-       "rest": "40 сек"
+       "rest": "40 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       },
       {
        "name": "Подъём на носки с гантелями",
        "alt": "",
        "sets_display": "3×15–20 раз",
        "weight": "Гантели 8–14 кг",
-       "rest": "40 сек"
+       "rest": "40 сек",
+       "video_url": "https://www.youtube.com/watch?v=ddryEAxgDNc",
+       "video_title": "Подъемы на носки - 3 вариации"
       }
      ]
     },
@@ -1524,28 +1756,36 @@
        "alt": "",
        "sets_display": "3×10–12 раз на ногу",
        "weight": "Гантели 6–12 кг",
-       "rest": "50–60 сек"
+       "rest": "50–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=8v4QoXor_bg",
+       "video_title": "Выпады + махи"
       },
       {
        "name": "Наклоны вперёд с гантелями Наклоны без веса (прямые ноги)",
        "alt": "",
        "sets_display": "4×10–12 раз",
        "weight": "Гантели 8–14 кг",
-       "rest": "50–60 сек"
+       "rest": "50–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=g1GmVoJkUaQ",
+       "video_title": "Бег сгибая ноги назад, показ"
       },
       {
        "name": "Ягодичный мост с гантелью на Ягодичный мост без бёдрах веса",
        "alt": "",
        "sets_display": "3×12–15 раз",
        "weight": "Гантель 10–20 кг",
-       "rest": "45–60 сек"
+       "rest": "45–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=1epi9iFvpIA",
+       "video_title": "Мостик на двух ногах"
       },
       {
        "name": "Планка с поочерёдным подъёмом Обычная планка руки",
        "alt": "",
        "sets_display": "3×25–35 секунд",
        "weight": "Свой вес",
-       "rest": "40 сек"
+       "rest": "40 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       }
      ],
      "День 2 (Верх тела и координация)": [
@@ -1554,28 +1794,36 @@
        "alt": "",
        "sets_display": "4×8–12 раз",
        "weight": "Свой вес",
-       "rest": "50–60 сек"
+       "rest": "50–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=zGddnFxqrsM",
+       "video_title": "Отжимания от пола. Отжимайся правильно!"
       },
       {
        "name": "Тяга гантели одной рукой в упоре Тяга резинки к себе одной рукой",
        "alt": "",
        "sets_display": "4×10–12 раз на руку",
        "weight": "Гантель 6–12 кг",
-       "rest": "50–60 сек"
+       "rest": "50–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=DLpIrbhR3X8",
+       "video_title": "Тяга гантели в наклоне"
       },
       {
        "name": "Разведение гантелей в стороны Круговые движения лёжа руками стоя",
        "alt": "",
        "sets_display": "3×12–15 раз",
        "weight": "Гантели 3–6 кг",
-       "rest": "40–50 сек"
+       "rest": "40–50 сек",
+       "video_url": "https://www.youtube.com/watch?v=fgN2_x7sGAQ",
+       "video_title": "Рывок гантели"
       },
       {
        "name": "Планка с поочерёдным подъёмом Обычная планка руки",
        "alt": "",
        "sets_display": "3×25–35 секунд",
        "weight": "Свой вес",
-       "rest": "40 сек"
+       "rest": "40 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       }
      ],
      "День 3 (Круговая тренировка всего тела)": [
@@ -1591,21 +1839,27 @@
        "alt": "",
        "sets_display": "1×6–8 минут",
        "weight": "—",
-       "rest": "—"
+       "rest": "—",
+       "video_url": "https://www.youtube.com/watch?v=JFQ9FxPceRY",
+       "video_title": "Бег - средний темп"
       },
       {
        "name": "Круговые движения руками и — ногами + наклоны",
        "alt": "",
        "sets_display": "2×10 раз в каждую сторону",
        "weight": "Свой вес",
-       "rest": "30 сек"
+       "rest": "30 сек",
+       "video_url": "https://www.youtube.com/watch?v=jJXySJRCmLM",
+       "video_title": "Кардио разминка перед тренировкой в зале"
       },
       {
        "name": "Планка с поочерёдным подъёмом Обычная планка руки",
        "alt": "",
        "sets_display": "3×25–35 секунд",
        "weight": "Свой вес",
-       "rest": "40 сек"
+       "rest": "40 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       },
       {
        "name": "Ягодичный мост без веса —",
@@ -1621,7 +1875,9 @@
        "alt": "",
        "sets_display": "2 1×10–12 раз 6–8 минут",
        "weight": "Свой вес —",
-       "rest": "50 сек —"
+       "rest": "50 сек —",
+       "video_url": "https://www.youtube.com/watch?v=zGddnFxqrsM",
+       "video_title": "Отжимания от пола. Отжимайся правильно!"
       }
      ]
     }
@@ -1681,14 +1937,18 @@
        "alt": "Планка на коленях",
        "sets_display": "3×20–40 секунд",
        "weight": "Свой вес",
-       "rest": "45–60 сек"
+       "rest": "45–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       },
       {
        "name": "Скручивания лёжа на спине",
        "alt": "Подъём ног лёжа",
        "sets_display": "3×12–15 раз",
        "weight": "Свой вес",
-       "rest": "45–60 сек"
+       "rest": "45–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=Sl-P_8q1DI8",
+       "video_title": "Лучшие упражнения для пресса - топ 10."
       }
      ],
      "День 2 — Всё тело (координация и выносливость)": [
@@ -1697,7 +1957,9 @@
        "alt": "Обычные приседания",
        "sets_display": "3×12–15 раз",
        "weight": "Свой вес",
-       "rest": "60–75 сек"
+       "rest": "60–75 сек",
+       "video_url": "https://www.youtube.com/watch?v=VYvnjkfIiSU",
+       "video_title": "Приседания плие"
       },
       {
        "name": "Выпады в стороны",
@@ -1722,7 +1984,9 @@
        "alt": "Тяга резинки одной рукой",
        "sets_display": "3×10–12 раз на руку",
        "weight": "Гантель 2–5 кг",
-       "rest": "60 сек"
+       "rest": "60 сек",
+       "video_url": "https://www.youtube.com/watch?v=DLpIrbhR3X8",
+       "video_title": "Тяга гантели в наклоне"
       },
       {
        "name": "Подъём на носки стоя",
@@ -1738,14 +2002,18 @@
        "alt": "Обычная планка",
        "sets_display": "3×20–30 секунд",
        "weight": "Свой вес",
-       "rest": "45–60 сек"
+       "rest": "45–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       },
       {
        "name": "Мостик ягодичный лёжа",
        "alt": "Мостик с одной ногой",
        "sets_display": "3×12–15 раз",
        "weight": "Свой вес",
-       "rest": "45–60 сек"
+       "rest": "45–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=1epi9iFvpIA",
+       "video_title": "Мостик на двух ногах"
       }
      ],
      "День 3 — Круговая тренировка (всё тело + выносливость)": [
@@ -1848,21 +2116,27 @@
        "alt": "движения",
        "sets_display": "3×12–15 раз",
        "weight": "Гантели 1–3 кг",
-       "rest": "45–60 сек"
+       "rest": "45–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=-lSGNXL_jVI",
+       "video_title": "Разведение гантелей лежа"
       },
       {
        "name": "Планка с поочерёдным подъёмом Обычная руки",
        "alt": "планка",
        "sets_display": "3×20–30 секунд",
        "weight": "Свой вес",
-       "rest": "45–60 сек"
+       "rest": "45–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       },
       {
        "name": "Скручивания лёжа + подъём ног Просто День 2 и День 4 — Низ тела",
        "alt": "скручивания и равновесие",
        "sets_display": "3×10 + 10 раз",
        "weight": "Свой вес",
-       "rest": "45–60 сек"
+       "rest": "45–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=jR4CGFfxOsU",
+       "video_title": "Пресс + диск"
       }
      ],
      "День 2 и День 4 — Низ тела и равновесие": [
@@ -1871,7 +2145,9 @@
        "alt": "у стены",
        "sets_display": "3×12–15 раз",
        "weight": "Свой вес",
-       "rest": "60–75 сек"
+       "rest": "60–75 сек",
+       "video_url": "https://www.youtube.com/watch?v=VYvnjkfIiSU",
+       "video_title": "Приседания плие"
       },
       {
        "name": "Выпады назад или в стороны Выпады",
@@ -1887,7 +2163,9 @@
        "alt": "с одной ногой",
        "sets_display": "3×12–15 раз",
        "weight": "Свой вес",
-       "rest": "45–60 сек"
+       "rest": "45–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=1epi9iFvpIA",
+       "video_title": "Мостик на двух ногах"
       },
       {
        "name": "Подъём на носки стоя Подъём",
@@ -1912,7 +2190,9 @@
        "alt": "поднимать руку",
        "sets_display": "3×8–10 раз на",
        "weight": "Свой вес",
-       "rest": "45–60 сек"
+       "rest": "45–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       },
       {
        "name": "(поднимать руку и ногу) или",
@@ -1995,7 +2275,9 @@
        "alt": "Обычные приседания",
        "sets_display": "3×12–15 раз",
        "weight": "Свой вес",
-       "rest": "60–75 сек"
+       "rest": "60–75 сек",
+       "video_url": "https://www.youtube.com/watch?v=VYvnjkfIiSU",
+       "video_title": "Приседания плие"
       },
       {
        "name": "Выпады в стороны",
@@ -2038,7 +2320,9 @@
        "alt": "Обычная планка",
        "sets_display": "3×20–30 секунд",
        "weight": "Свой вес",
-       "rest": "45–60 сек"
+       "rest": "45–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       },
       {
        "name": "Мостик ягодичный",
@@ -2119,14 +2403,18 @@
        "alt": "—",
        "sets_display": "1×6–8 минут",
        "weight": "—",
-       "rest": "—"
+       "rest": "—",
+       "video_url": "https://www.youtube.com/watch?v=JFQ9FxPceRY",
+       "video_title": "Бег - средний темп"
       },
       {
        "name": "Круговые движения руками и ногами + наклоны",
        "alt": "—",
        "sets_display": "2×10 раз в каждую сторону",
        "weight": "Свой вес",
-       "rest": "30 сек"
+       "rest": "30 сек",
+       "video_url": "https://www.youtube.com/watch?v=jJXySJRCmLM",
+       "video_title": "Кардио разминка перед тренировкой в зале"
       },
       {
        "name": "Планка (обычная и боковая)",
@@ -2160,7 +2448,9 @@
        "alt": "— — —",
        "sets_display": "2 2 1×8–10 раз 8–10 раз 6–8 минут",
        "weight": "Свой вес Свой вес —",
-       "rest": "60 сек 60 сек —"
+       "rest": "60 сек 60 сек —",
+       "video_url": "https://www.youtube.com/watch?v=zGddnFxqrsM",
+       "video_title": "Отжимания от пола. Отжимайся правильно!"
       }
      ]
     }
@@ -2173,14 +2463,18 @@
        "alt": "Обычные выпады + мост без веса",
        "sets_display": "4×8–10 раз на ногу + 10–12 раз",
        "weight": "Гантели 8–12 кг / штанга 15–25 кг",
-       "rest": "30–45 сек"
+       "rest": "30–45 сек",
+       "video_url": "https://www.youtube.com/watch?v=n1rc4-d8FYU",
+       "video_title": "Болгарские приседания. Приседания на 1 ноге с гантелями"
       },
       {
        "name": "Румынская тяга на одной ноге с гантелями",
        "alt": "Румынская тяга на двух ногах",
        "sets_display": "3×8–10 раз на ногу",
        "weight": "Гантели 8–12 кг",
-       "rest": "45–60 сек"
+       "rest": "45–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=oqh7hHMlNyU",
+       "video_title": "Мертвая тяга"
       }
      ],
      "День 2 — Верх тела и стабильность корпуса (суперсеты)": [
@@ -2189,7 +2483,9 @@
        "alt": "Боковая планка с удержанием",
        "sets_display": "3×20–40 сек на сторону + 20–30 сек",
        "weight": "Свой вес",
-       "rest": "30–45 сек"
+       "rest": "30–45 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       }
      ],
      "День 3 — Плотная круговая метаболическая тренировка (всё тело)": [
@@ -2207,14 +2503,18 @@
        "alt": "Обычные отжимания",
        "sets_display": "8–12 раз",
        "weight": "Свой вес",
-       "rest": "15–30 сек"
+       "rest": "15–30 сек",
+       "video_url": "https://www.youtube.com/watch?v=zGddnFxqrsM",
+       "video_title": "Отжимания от пола. Отжимайся правильно!"
       },
       {
        "name": "Румынская тяга на одной ноге",
        "alt": "Румынская тяга на двух ногах",
        "sets_display": "8 раз на ногу",
        "weight": "Гантели 6–10 кг",
-       "rest": "15–30 сек"
+       "rest": "15–30 сек",
+       "video_url": "https://www.youtube.com/watch?v=oqh7hHMlNyU",
+       "video_title": "Мертвая тяга"
       },
       {
        "name": "Тяга гантели одной рукой в упоре",
@@ -2230,7 +2530,9 @@
        "alt": "Мост с одной ногой",
        "sets_display": "10–12 раз",
        "weight": "Штанга 15–25 кг",
-       "rest": "15–30 сек"
+       "rest": "15–30 сек",
+       "video_url": "https://www.youtube.com/watch?v=1epi9iFvpIA",
+       "video_title": "Мостик на двух ногах"
       },
       {
        "name": "Копенгагенская планка",
@@ -2246,7 +2548,9 @@
        "alt": "Обычная планка",
        "sets_display": "8 раз на сторону",
        "weight": "Свой вес",
-       "rest": "15–30 сек"
+       "rest": "15–30 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       }
      ]
     },
@@ -2257,7 +2561,9 @@
        "alt": "Боковая планка с удержанием",
        "sets_display": "3×20–40 сек на сторону + 20–30 сек",
        "weight": "Свой вес",
-       "rest": "30–45 сек"
+       "rest": "30–45 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       }
      ],
      "День 2 и День 4 — Ноги, ягодицы и координация (суперсеты)": [
@@ -2266,14 +2572,18 @@
        "alt": "Обычные выпады + мост без веса",
        "sets_display": "4×8–10 раз на ногу + 10–12 раз",
        "weight": "Гантели 8–12 кг / штанга 15–25 кг",
-       "rest": "30–45 сек"
+       "rest": "30–45 сек",
+       "video_url": "https://www.youtube.com/watch?v=n1rc4-d8FYU",
+       "video_title": "Болгарские приседания. Приседания на 1 ноге с гантелями"
       },
       {
        "name": "Румынская тяга на одной ноге с гантелями",
        "alt": "Румынская тяга на двух ногах",
        "sets_display": "3×8–10 раз на ногу",
        "weight": "Гантели 8–12 кг",
-       "rest": "45–60 сек"
+       "rest": "45–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=oqh7hHMlNyU",
+       "video_title": "Мертвая тяга"
       }
      ]
     },
@@ -2284,14 +2594,18 @@
        "alt": "Обычные выпады + мост без веса",
        "sets_display": "4×8–10 раз на ногу + 10–12 раз",
        "weight": "Гантели 8–12 кг / штанга 15–25 кг",
-       "rest": "30–45 сек"
+       "rest": "30–45 сек",
+       "video_url": "https://www.youtube.com/watch?v=n1rc4-d8FYU",
+       "video_title": "Болгарские приседания. Приседания на 1 ноге с гантелями"
       },
       {
        "name": "Румынская тяга на одной ноге с гантелями",
        "alt": "Румынская тяга на двух ногах",
        "sets_display": "3×8–10 раз на ногу",
        "weight": "Гантели 8–12 кг",
-       "rest": "45–60 сек"
+       "rest": "45–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=oqh7hHMlNyU",
+       "video_title": "Мертвая тяга"
       }
      ],
      "День 2 (Верх тела и стабильность корпуса)": [
@@ -2300,7 +2614,9 @@
        "alt": "Боковая планка с удержанием",
        "sets_display": "3×20–40 сек на сторону + 20–30 сек",
        "weight": "Свой вес",
-       "rest": "30–45 сек"
+       "rest": "30–45 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       }
      ],
      "День 3 (Плотная круговая метаболическая тренировка)": [
@@ -2318,14 +2634,18 @@
        "alt": "Обычные отжимания",
        "sets_display": "8–12 раз",
        "weight": "Свой вес",
-       "rest": "15–30 сек"
+       "rest": "15–30 сек",
+       "video_url": "https://www.youtube.com/watch?v=zGddnFxqrsM",
+       "video_title": "Отжимания от пола. Отжимайся правильно!"
       },
       {
        "name": "Румынская тяга на одной ноге",
        "alt": "Румынская тяга на двух ногах",
        "sets_display": "8 раз на ногу",
        "weight": "Гантели 6–10 кг",
-       "rest": "15–30 сек"
+       "rest": "15–30 сек",
+       "video_url": "https://www.youtube.com/watch?v=oqh7hHMlNyU",
+       "video_title": "Мертвая тяга"
       },
       {
        "name": "Тяга гантели одной рукой в упоре",
@@ -2341,7 +2661,9 @@
        "alt": "Мост с одной ногой",
        "sets_display": "10–12 раз",
        "weight": "Штанга 15–25 кг",
-       "rest": "15–30 сек"
+       "rest": "15–30 сек",
+       "video_url": "https://www.youtube.com/watch?v=1epi9iFvpIA",
+       "video_title": "Мостик на двух ногах"
       },
       {
        "name": "Копенгагенская планка",
@@ -2357,35 +2679,45 @@
        "alt": "Обычная планка",
        "sets_display": "8 раз на сторону",
        "weight": "Свой вес",
-       "rest": "15–30 сек"
+       "rest": "15–30 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       },
       {
        "name": "Ходьба на месте или на дорожке + лёгкое кардио",
        "alt": "—",
        "sets_display": "1×7–10 минут",
        "weight": "—",
-       "rest": "—"
+       "rest": "—",
+       "video_url": "https://www.youtube.com/watch?v=JFQ9FxPceRY",
+       "video_title": "Бег - средний темп"
       },
       {
        "name": "Круговые движения руками, ногами + наклоны корпуса",
        "alt": "—",
        "sets_display": "2×10–12 раз в каждую сторону",
        "weight": "Свой вес",
-       "rest": "30 сек"
+       "rest": "30 сек",
+       "video_url": "https://www.youtube.com/watch?v=jJXySJRCmLM",
+       "video_title": "Кардио разминка перед тренировкой в зале"
       },
       {
        "name": "Планка с поочерёдным подъёмом руки и ноги (медленно и контролируемо)",
        "alt": "Обычная планка",
        "sets_display": "3×20–30 секунд",
        "weight": "Свой вес",
-       "rest": "40 сек"
+       "rest": "40 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       },
       {
        "name": "Упражнение на четвереньках с гантелью (птица-собака с паузой)",
        "alt": "Обычное без веса",
        "sets_display": "3×8–10 раз на сторону",
        "weight": "Гантель 2–4 кг",
-       "rest": "40 сек"
+       "rest": "40 сек",
+       "video_url": "https://www.youtube.com/watch?v=fgN2_x7sGAQ",
+       "video_title": "Рывок гантели"
       },
       {
        "name": "Ягодичный мост с одной ногой + скручивания с поворотом",
@@ -2425,21 +2757,27 @@
        "alt": "тяга на двух",
        "sets_display": "3×8–10 раз на ногу",
        "weight": "Гантели 6–10 кг",
-       "rest": "50–60 сек"
+       "rest": "50–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=oqh7hHMlNyU",
+       "video_title": "Мертвая тяга"
       },
       {
        "name": "Ягодичный мост со штангой или Ягодичный гантелью ногой",
        "alt": "мост с одной",
        "sets_display": "4×10–12 раз",
        "weight": "Штанга 15–30 кг или гантель 10– 16 кг",
-       "rest": "45–60 сек"
+       "rest": "45–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=1epi9iFvpIA",
+       "video_title": "Мостик на двух ногах"
       },
       {
        "name": "Планка с поочерёдным подъёмом Обычная руки и ноги",
        "alt": "планка",
        "sets_display": "3×8–10 раз на сторону",
        "weight": "Свой вес",
-       "rest": "40 сек"
+       "rest": "40 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       }
      ],
      "День 2 — Верх тела и стабильность корпуса": [
@@ -2448,14 +2786,18 @@
        "alt": "отжимания с на спине",
        "sets_display": "4×8–12 раз",
        "weight": "Свой вес или жилет 3–6 кг",
-       "rest": "50–60 сек"
+       "rest": "50–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=zGddnFxqrsM",
+       "video_title": "Отжимания от пола. Отжимайся правильно!"
       },
       {
        "name": "Тяга гантели одной рукой в упоре Тяга на скамье одной",
        "alt": "нижнего блока рукой",
        "sets_display": "4×8–10 раз на руку",
        "weight": "Гантель 8–12 кг",
-       "rest": "50–60 сек"
+       "rest": "50–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=DLpIrbhR3X8",
+       "video_title": "Тяга гантели в наклоне"
       },
       {
        "name": "Жим гантелей сидя над головой с Жим паузой",
@@ -2471,14 +2813,18 @@
        "alt": "гантелями в",
        "sets_display": "3×12–15 + 12– 15",
        "weight": "Гантели 4–6 кг",
-       "rest": "40–50 сек"
+       "rest": "40–50 сек",
+       "video_url": "https://www.youtube.com/watch?v=-lSGNXL_jVI",
+       "video_title": "Разведение гантелей лежа"
       },
       {
        "name": "Планка с поочерёдным касанием Обычная плеч (в упоре)",
        "alt": "планка с весом",
        "sets_display": "3×25–40 секунд",
        "weight": "Свой вес или жилет",
-       "rest": "40 сек"
+       "rest": "40 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       }
      ]
     },
@@ -2489,14 +2835,18 @@
        "alt": "Обычные отжимания с весом на спине",
        "sets_display": "4×8–12 раз",
        "weight": "Свой вес или жилет 3–6 кг",
-       "rest": "50–60 сек"
+       "rest": "50–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=zGddnFxqrsM",
+       "video_title": "Отжимания от пола. Отжимайся правильно!"
       },
       {
        "name": "Тяга гантели одной рукой в упоре на скамье",
        "alt": "Тяга нижнего блока одной рукой",
        "sets_display": "4×8–10 раз на руку",
        "weight": "Гантель 8–12 кг",
-       "rest": "50–60 сек"
+       "rest": "50–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=DLpIrbhR3X8",
+       "video_title": "Тяга гантели в наклоне"
       },
       {
        "name": "Жим гантелей сидя над головой с паузой",
@@ -2521,14 +2871,18 @@
        "alt": "Обычная планка с весом",
        "sets_display": "3×25–40 секунд",
        "weight": "Свой вес или жилет",
-       "rest": "40 сек"
+       "rest": "40 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       },
       {
        "name": "Скручивания на римском стуле с поворотом",
        "alt": "Скручивания лёжа с гантелью",
        "sets_display": "3×12–15 раз на сторону",
        "weight": "Гантель 4–6 кг",
-       "rest": "40 сек"
+       "rest": "40 сек",
+       "video_url": "https://www.youtube.com/watch?v=Sl-P_8q1DI8",
+       "video_title": "Лучшие упражнения для пресса - топ 10."
       }
      ],
      "День 2 и День 4 — Ноги, ягодицы и координация": [
@@ -2546,14 +2900,18 @@
        "alt": "Румынская тяга на двух ногах",
        "sets_display": "3×8–10 раз на ногу",
        "weight": "Гантели 6–10 кг",
-       "rest": "50–60 сек"
+       "rest": "50–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=oqh7hHMlNyU",
+       "video_title": "Мертвая тяга"
       },
       {
        "name": "Ягодичный мост со штангой или гантелью",
        "alt": "Ягодичный мост с одной ногой",
        "sets_display": "4×10–12 раз",
        "weight": "Штанга 15–30 кг или гантель 10– 16 кг",
-       "rest": "45–60 сек"
+       "rest": "45–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=1epi9iFvpIA",
+       "video_title": "Мостик на двух ногах"
       },
       {
        "name": "Копенгагенская планка (или боковая планка с подъёмом ноги)",
@@ -2569,7 +2927,9 @@
        "alt": "Обычная планка",
        "sets_display": "3×8–10 раз на сторону",
        "weight": "Свой вес",
-       "rest": "40 сек"
+       "rest": "40 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       },
       {
        "name": "Подъём на носки стоя с гантелями",
@@ -2598,21 +2958,27 @@
        "alt": "тяга на двух",
        "sets_display": "3×8–10 раз на ногу",
        "weight": "Гантели 6–10 кг",
-       "rest": "50–60 сек"
+       "rest": "50–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=oqh7hHMlNyU",
+       "video_title": "Мертвая тяга"
       },
       {
        "name": "Ягодичный мост со штангой или Ягодичный гантелью ногой",
        "alt": "мост с одной",
        "sets_display": "4×10–12 раз",
        "weight": "Штанга 15–30 кг или гантель 10– 16 кг",
-       "rest": "45–60 сек"
+       "rest": "45–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=1epi9iFvpIA",
+       "video_title": "Мостик на двух ногах"
       },
       {
        "name": "Планка с поочерёдным подъёмом Обычная руки и ноги",
        "alt": "планка",
        "sets_display": "3×8–10 раз на сторону",
        "weight": "Свой вес",
-       "rest": "40 сек"
+       "rest": "40 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       }
      ],
      "День 2 (Верх тела и стабильность корпуса)": [
@@ -2621,14 +2987,18 @@
        "alt": "отжимания с на спине",
        "sets_display": "4×8–12 раз",
        "weight": "Свой вес или жилет 3–6 кг",
-       "rest": "50–60 сек"
+       "rest": "50–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=zGddnFxqrsM",
+       "video_title": "Отжимания от пола. Отжимайся правильно!"
       },
       {
        "name": "Тяга гантели одной рукой в упоре Тяга на скамье одной",
        "alt": "нижнего блока рукой",
        "sets_display": "4×8–10 раз на руку",
        "weight": "Гантель 8–12 кг",
-       "rest": "50–60 сек"
+       "rest": "50–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=DLpIrbhR3X8",
+       "video_title": "Тяга гантели в наклоне"
       },
       {
        "name": "Жим гантелей сидя над головой с Жим паузой",
@@ -2644,14 +3014,18 @@
        "alt": "гантелями в",
        "sets_display": "3×12–15 + 12– 15",
        "weight": "Гантели 4–6 кг",
-       "rest": "40–50 сек"
+       "rest": "40–50 сек",
+       "video_url": "https://www.youtube.com/watch?v=-lSGNXL_jVI",
+       "video_title": "Разведение гантелей лежа"
       },
       {
        "name": "Планка с поочерёдным касанием Обычная плеч (в упоре)",
        "alt": "планка с весом",
        "sets_display": "3×25–40 секунд",
        "weight": "Свой вес или жилет",
-       "rest": "40 сек"
+       "rest": "40 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       }
      ],
      "День 3 (Плотная круговая тренировка)": [
@@ -2660,28 +3034,36 @@
        "alt": "",
        "sets_display": "1×7–10 минут",
        "weight": "—",
-       "rest": "—"
+       "rest": "—",
+       "video_url": "https://www.youtube.com/watch?v=JFQ9FxPceRY",
+       "video_title": "Бег - средний темп"
       },
       {
        "name": "Круговые движения руками, ногами — + наклоны корпуса",
        "alt": "",
        "sets_display": "2×10–12 раз в каждую сторону",
        "weight": "Свой вес",
-       "rest": "30 сек"
+       "rest": "30 сек",
+       "video_url": "https://www.youtube.com/watch?v=jJXySJRCmLM",
+       "video_title": "Кардио разминка перед тренировкой в зале"
       },
       {
        "name": "Планка с поочерёдным подъёмом Обычная руки и ноги (медленно)",
        "alt": "планка",
        "sets_display": "3×20–30 секунд",
        "weight": "Свой вес",
-       "rest": "40 сек"
+       "rest": "40 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       },
       {
        "name": "гантелью (птица-собака)",
        "alt": "",
        "sets_display": "сторону",
        "weight": "",
-       "rest": ""
+       "rest": "",
+       "video_url": "https://www.youtube.com/watch?v=fgN2_x7sGAQ",
+       "video_title": "Рывок гантели"
       },
       {
        "name": "Ягодичный мост с одной ногой Обычный мост",
@@ -2697,7 +3079,9 @@
        "alt": "отжимания",
        "sets_display": "2×8–10 раз",
        "weight": "Свой вес",
-       "rest": "50 сек"
+       "rest": "50 сек",
+       "video_url": "https://www.youtube.com/watch?v=zGddnFxqrsM",
+       "video_title": "Отжимания от пола. Отжимайся правильно!"
       }
      ]
     }
@@ -3035,7 +3419,9 @@
        "alt": "Присед в гак-тренажёре",
        "sets_display": "3–4×8 раз",
        "weight": "",
-       "rest": "90–120 сек —"
+       "rest": "90–120 сек —",
+       "video_url": "https://www.youtube.com/watch?v=-c7BysX0c80",
+       "video_title": "Приседания со штангой"
       },
       {
        "name": "Жим гантелей лёжа",
@@ -3136,7 +3522,9 @@
        "alt": "Тяга штанги в наклоне",
        "sets_display": "3–4×8–10 раз",
        "weight": "",
-       "rest": "75–90 сек 75–90 сек — —"
+       "rest": "75–90 сек 75–90 сек — —",
+       "video_url": "https://www.youtube.com/watch?v=SmNyV6aQsFA",
+       "video_title": "Тяга верхнего блока"
       },
       {
        "name": "Жим гантелей на наклонной скамье",
@@ -3152,14 +3540,18 @@
        "alt": "Тяга к подбородку",
        "sets_display": "3×12–15 раз",
        "weight": "",
-       "rest": "45–60 сек —"
+       "rest": "45–60 сек —",
+       "video_url": "https://www.youtube.com/watch?v=HSTreJWu6N0",
+       "video_title": "Махи гирей"
       },
       {
        "name": "Ягодичный мост со штангой",
        "alt": "Гиперэкстензия обратная",
        "sets_display": "3×10–12 раз",
        "weight": "",
-       "rest": "60 сек —"
+       "rest": "60 сек —",
+       "video_url": "https://www.youtube.com/watch?v=1epi9iFvpIA",
+       "video_title": "Мостик на двух ногах"
       }
      ]
     },
@@ -3244,7 +3636,9 @@
        "alt": "Присед в гаке (узкая постановка)",
        "sets_display": "3×12–15 раз",
        "weight": "",
-       "rest": "45–60 сек"
+       "rest": "45–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=VNMalkIc_i0",
+       "video_title": "Жим ногами в тренажере"
       },
       {
        "name": "Подъёмы на носки стоя",
@@ -3271,7 +3665,9 @@
        "alt": "Тяга штанги в наклоне",
        "sets_display": "3–4×8–10 раз",
        "weight": "",
-       "rest": "75–90 сек"
+       "rest": "75–90 сек",
+       "video_url": "https://www.youtube.com/watch?v=SmNyV6aQsFA",
+       "video_title": "Тяга верхнего блока"
       },
       {
        "name": "Разведение гантелей в стороны",
@@ -3316,14 +3712,18 @@
        "alt": "Выпады с гантелями",
        "sets_display": "3×10–12 на ногу",
        "weight": "",
-       "rest": "60 сек"
+       "rest": "60 сек",
+       "video_url": "https://www.youtube.com/watch?v=VYvnjkfIiSU",
+       "video_title": "Приседания плие"
       },
       {
        "name": "Ягодичный мост со штангой",
        "alt": "Гиперэкстензия обратная",
        "sets_display": "3×10–12 раз",
        "weight": "",
-       "rest": "60 сек"
+       "rest": "60 сек",
+       "video_url": "https://www.youtube.com/watch?v=1epi9iFvpIA",
+       "video_title": "Мостик на двух ногах"
       },
       {
        "name": "Сгибание ног в тренажёре",
@@ -3450,14 +3850,18 @@
        "alt": "Тяга верхнего блока широким хватом",
        "sets_display": "3–4×8–12 раз",
        "weight": "",
-       "rest": "75–90 сек"
+       "rest": "75–90 сек",
+       "video_url": "https://www.youtube.com/watch?v=3EgdV_ipY9Y",
+       "video_title": "Строгие подтягивания на турнике"
       },
       {
        "name": "Махи гантелями в стороны",
        "alt": "Махи в кроссовере через нижний блок",
        "sets_display": "3–4×12–15 раз",
        "weight": "",
-       "rest": "45–60 сек"
+       "rest": "45–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=HSTreJWu6N0",
+       "video_title": "Махи гирей"
       }
      ],
      "День 3 — Full Body C (акцент: ягодицы/плечи/руки)": [
@@ -3620,7 +4024,9 @@
        "alt": "Тяга верхнего блока широким хватом",
        "sets_display": "3–4×8–12 раз",
        "weight": "",
-       "rest": "75–90 сек"
+       "rest": "75–90 сек",
+       "video_url": "https://www.youtube.com/watch?v=3EgdV_ipY9Y",
+       "video_title": "Строгие подтягивания на турнике"
       },
       {
        "name": "Тяга гантели одной рукой в упоре",
@@ -3636,7 +4042,9 @@
        "alt": "Подъём гантелей на бицепс поочерёдно",
        "sets_display": "3×10–12 раз",
        "weight": "",
-       "rest": "45–60 сек"
+       "rest": "45–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=5LxO7-H3f9Q",
+       "video_title": "Бицепс с гантелей сидя"
       }
      ]
     },
@@ -3674,7 +4082,9 @@
        "alt": "Махи в кроссовере через нижний блок",
        "sets_display": "3–4×12–15 раз",
        "weight": "",
-       "rest": "45–60 сек"
+       "rest": "45–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=HSTreJWu6N0",
+       "video_title": "Махи гирей"
       }
      ],
      "День 2 — Pull (спина, бицепс)": [
@@ -3692,7 +4102,9 @@
        "alt": "Тяга верхнего блока широким хватом",
        "sets_display": "3–4×8–12 раз",
        "weight": "",
-       "rest": "75–90 сек"
+       "rest": "75–90 сек",
+       "video_url": "https://www.youtube.com/watch?v=3EgdV_ipY9Y",
+       "video_title": "Строгие подтягивания на турнике"
       },
       {
        "name": "Тяга гантели одной рукой в упоре",
@@ -3757,21 +4169,27 @@
        "alt": "Прыжки на месте с высокой частотой",
        "sets_display": "4×40–60 сек",
        "weight": "",
-       "rest": "30 сек"
+       "rest": "30 сек",
+       "video_url": "https://www.youtube.com/watch?v=t4vZL1-cWUw",
+       "video_title": "Двойные прыжки на скакалке"
       },
       {
        "name": "Скручивания на верхнем блоке",
        "alt": "Скручивания с диском на груди",
        "sets_display": "3–4×15–20 раз",
        "weight": "",
-       "rest": "30–45 сек"
+       "rest": "30–45 сек",
+       "video_url": "https://www.youtube.com/watch?v=Sl-P_8q1DI8",
+       "video_title": "Лучшие упражнения для пресса - топ 10."
       },
       {
        "name": "Русские скручивания с диском/гантелей",
        "alt": "Русские скручивания без веса",
        "sets_display": "3×15–20 раз",
        "weight": "",
-       "rest": "30–45 сек"
+       "rest": "30–45 сек",
+       "video_url": "https://www.youtube.com/watch?v=fgN2_x7sGAQ",
+       "video_title": "Рывок гантели"
       }
      ],
      "День 5 — Верх тела (общий) + функциональная работа": [
@@ -3798,7 +4216,9 @@
        "alt": "Разведения гантелей в наклоне",
        "sets_display": "3×12–15 раз",
        "weight": "",
-       "rest": "45–60 сек"
+       "rest": "45–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=-lSGNXL_jVI",
+       "video_title": "Разведение гантелей лежа"
       }
      ]
     }
@@ -3822,21 +4242,27 @@
        "alt": "Скручивания на полу 12–15 без веса",
        "sets_display": "3",
        "weight": "блин 2–5 кг",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=Sl-P_8q1DI8",
+       "video_title": "Лучшие упражнения для пресса - топ 10."
       },
       {
        "name": "Планка с блином на спине",
        "alt": "Планка классическая 30–45 сек",
        "sets_display": "3",
        "weight": "блин 5 кг или без веса",
-       "rest": "30–45 сек"
+       "rest": "30–45 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       },
       {
        "name": "• Становая тяга классическая • Подтягивания в гравитроне",
        "alt": "— 4×6–8, вес: гриф 20 кг — 4×8–10, вес: подобрать",
        "sets_display": "и выше, отдых: противовес,",
        "weight": "90–120 сек",
-       "rest": "120 сек отдых:"
+       "rest": "120 сек отдых:",
+       "video_url": "https://www.youtube.com/watch?v=3EgdV_ipY9Y",
+       "video_title": "Строгие подтягивания на турнике"
       },
       {
        "name": "• Выпады с гантелями • Жим штанги узким",
@@ -3852,7 +4278,9 @@
        "alt": "бицепс — 3×8–10, вес: гриф 10–15",
        "sets_display": "кг, отдых:",
        "weight": "",
-       "rest": "60–90 сек"
+       "rest": "60–90 сек",
+       "video_url": "https://www.youtube.com/watch?v=bQWiyEX9evI",
+       "video_title": "Толчок штанги"
       }
      ]
     }
@@ -3885,14 +4313,18 @@
        "alt": "в тренажёре",
        "sets_display": "3×12–15 RPE 8, до жжения",
        "weight": "",
-       "rest": "60–90 сек"
+       "rest": "60–90 сек",
+       "video_url": "https://www.youtube.com/watch?v=DLpIrbhR3X8",
+       "video_title": "Тяга гантели в наклоне"
       },
       {
        "name": "Шраги со штангой Шраги День C — Акцент: Руки",
        "alt": "с гантелями + Общая проработка",
        "sets_display": "3×10–12 RPE 8 + Сила низа",
        "weight": "",
-       "rest": "60–90 сек"
+       "rest": "60–90 сек",
+       "video_url": "https://www.youtube.com/watch?v=V1nYIGZlfTw",
+       "video_title": "Разгибание руки с камнем"
       }
      ],
      "День C — Акцент: Руки + Общая проработка + Сила низа": [
@@ -3977,7 +4409,9 @@
        "alt": "верхнего блока хватом",
        "sets_display": "3×8–10 RPE 8",
        "weight": "",
-       "rest": "90 сек"
+       "rest": "90 сек",
+       "video_url": "https://www.youtube.com/watch?v=DLpIrbhR3X8",
+       "video_title": "Тяга гантели в наклоне"
       },
       {
        "name": "Подъём гантелей «молот» Подъём скамье",
@@ -3993,7 +4427,9 @@
        "alt": "штанги узким ног + задняя",
        "sets_display": "3 цепь)×8–10 RPE 8",
        "weight": "",
-       "rest": "90 сек"
+       "rest": "90 сек",
+       "video_url": "https://www.youtube.com/watch?v=zGddnFxqrsM",
+       "video_title": "Отжимания от пола. Отжимайся правильно!"
       }
      ],
      "День 3 — Верх тела B (масса плеч и спины)": [
@@ -4051,7 +4487,9 @@
        "alt": "от пола",
        "sets_display": "3×12–15 RPE 8",
        "weight": "",
-       "rest": "60 сек"
+       "rest": "60 сек",
+       "video_url": "https://www.youtube.com/watch?v=zGddnFxqrsM",
+       "video_title": "Отжимания от пола. Отжимайся правильно!"
       }
      ],
      "День 2 — Спина": [
@@ -4060,7 +4498,9 @@
        "alt": "нижнего блока хватом",
        "sets_display": "3×8–10 RPE 8",
        "weight": "",
-       "rest": "90 сек"
+       "rest": "90 сек",
+       "video_url": "https://www.youtube.com/watch?v=DLpIrbhR3X8",
+       "video_title": "Тяга гантели в наклоне"
       },
       {
        "name": "Тяга верхнего блока к лицу Разведение (задняя дельта) наклоне",
@@ -4076,7 +4516,9 @@
        "alt": "Альтернатива",
        "sets_display": "3 Подходы×10–12 RPE 8 Повторения Рабочий",
        "weight": "вес",
-       "rest": "60 сек Отдых"
+       "rest": "60 сек Отдых",
+       "video_url": "https://www.youtube.com/watch?v=g1GmVoJkUaQ",
+       "video_title": "Бег сгибая ноги назад, показ"
       }
      ],
      "День 3 — Ноги": [
@@ -4094,7 +4536,9 @@
        "alt": "",
        "sets_display": "3×8–10 RPE 8",
        "weight": "",
-       "rest": "90 сек"
+       "rest": "90 сек",
+       "video_url": "https://www.youtube.com/watch?v=1epi9iFvpIA",
+       "video_title": "Мостик на двух ногах"
       },
       {
        "name": "Разгибание ног в тренажёре Жим постановкой",
@@ -4148,7 +4592,9 @@
        "alt": "с гантелями",
        "sets_display": "3×10–12 RPE 8",
        "weight": "",
-       "rest": "60–90 сек"
+       "rest": "60–90 сек",
+       "video_url": "https://www.youtube.com/watch?v=2CnnclSpOvQ",
+       "video_title": "Шраги с гантелями"
       }
      ],
      "День 5 — Руки": [
@@ -4157,7 +4603,9 @@
        "alt": "гантелей «молот»",
        "sets_display": "3×8–10 RPE 8",
        "weight": "",
-       "rest": "60–90 сек"
+       "rest": "60–90 сек",
+       "video_url": "https://www.youtube.com/watch?v=5LxO7-H3f9Q",
+       "video_title": "Бицепс с гантелей сидя"
       },
       {
        "name": "Французский жим лёжа Разгибание канатом",
@@ -4173,7 +4621,9 @@
        "alt": "на бицепс",
        "sets_display": "3×10–12 RPE 8, до жжения",
        "weight": "",
-       "rest": "60 сек"
+       "rest": "60 сек",
+       "video_url": "https://www.youtube.com/watch?v=5LxO7-H3f9Q",
+       "video_title": "Бицепс с гантелей сидя"
       }
      ]
     }
@@ -4222,7 +4672,9 @@
        "alt": "Подъём гантелей на бицепс",
        "sets_display": "3×10–12",
        "weight": "вес, при котором последние 2 повтора даются с трудом",
-       "rest": "60–90 сек"
+       "rest": "60–90 сек",
+       "video_url": "https://www.youtube.com/watch?v=5LxO7-H3f9Q",
+       "video_title": "Бицепс с гантелей сидя"
       },
       {
        "name": "Скручивания на пресс",
@@ -4390,7 +4842,9 @@
        "alt": "Подъём гантелей на бицепс",
        "sets_display": "3×10–12",
        "weight": "вес, при котором последние 2 повтора даются с трудом",
-       "rest": "60–90 сек"
+       "rest": "60–90 сек",
+       "video_url": "https://www.youtube.com/watch?v=5LxO7-H3f9Q",
+       "video_title": "Бицепс с гантелей сидя"
       },
       {
        "name": "Французский жим лёжа",
@@ -4417,7 +4871,9 @@
        "alt": "Сгибание ног лёжа в тренажёре",
        "sets_display": "3×8–10",
        "weight": "65–75% от 1ПМ",
-       "rest": "90–120 сек"
+       "rest": "90–120 сек",
+       "video_url": "https://www.youtube.com/watch?v=oqh7hHMlNyU",
+       "video_title": "Мертвая тяга"
       },
       {
        "name": "Выпады с гантелями",
@@ -4623,7 +5079,9 @@
        "alt": "Тяга верхнего блока широким хватом",
        "sets_display": "4×8–10",
        "weight": "65–75% от 1ПМ",
-       "rest": "90–120 сек"
+       "rest": "90–120 сек",
+       "video_url": "https://www.youtube.com/watch?v=3EgdV_ipY9Y",
+       "video_title": "Строгие подтягивания на турнике"
       },
       {
        "name": "Тяга штанги в наклоне",
@@ -4648,7 +5106,9 @@
        "alt": "Гиперэкстензия",
        "sets_display": "3×12–15",
        "weight": "умеренный, техничный темп",
-       "rest": "60–90 сек"
+       "rest": "60–90 сек",
+       "video_url": "https://www.youtube.com/watch?v=bQWiyEX9evI",
+       "video_title": "Толчок штанги"
       }
      ],
      "День 3 — Ноги": [
@@ -4666,7 +5126,9 @@
        "alt": "Сгибание ног лёжа в тренажёре",
        "sets_display": "4×8–10",
        "weight": "65–75% от 1ПМ",
-       "rest": "90–120 сек"
+       "rest": "90–120 сек",
+       "video_url": "https://www.youtube.com/watch?v=oqh7hHMlNyU",
+       "video_title": "Мертвая тяга"
       },
       {
        "name": "Выпады с гантелями",
@@ -4749,7 +5211,9 @@
        "alt": "Подъём гантелей на бицепс",
        "sets_display": "4×8–10",
        "weight": "вес, при котором последние 2 повтора даются с трудом",
-       "rest": "60–90 сек"
+       "rest": "60–90 сек",
+       "video_url": "https://www.youtube.com/watch?v=5LxO7-H3f9Q",
+       "video_title": "Бицепс с гантелей сидя"
       },
       {
        "name": "Жим штанги узким хватом",
@@ -4792,7 +5256,9 @@
        "alt": "Разгибание рук на блоке канатом",
        "sets_display": "3×12–15",
        "weight": "лёгкий-средний, до жжения в мышце",
-       "rest": "60–90 сек"
+       "rest": "60–90 сек",
+       "video_url": "https://www.youtube.com/watch?v=ldeNlzR8pho",
+       "video_title": "Толчок одной гири"
       }
      ]
     }
@@ -4827,21 +5293,27 @@
        "alt": "Обычные невысокие прыжки на месте",
        "sets_display": "3×20–30 сек",
        "weight": "",
-       "rest": "30 сек"
+       "rest": "30 сек",
+       "video_url": "https://www.youtube.com/watch?v=g1GmVoJkUaQ",
+       "video_title": "Бег сгибая ноги назад, показ"
       },
       {
        "name": "Выпады со сменой ног в прыжке",
        "alt": "Выпады на месте в быстром темпе",
        "sets_display": "3×8–10 на ногу",
        "weight": "",
-       "rest": "45–60 сек"
+       "rest": "45–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=8v4QoXor_bg",
+       "video_title": "Выпады + махи"
       },
       {
        "name": "«Альпинист» в быстром темпе",
        "alt": "«Альпинист» в среднем темпе",
        "sets_display": "3×20–30 сек",
        "weight": "",
-       "rest": "30 сек"
+       "rest": "30 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       }
      ],
      "День 2 — Всё тело B": [
@@ -4859,28 +5331,36 @@
        "alt": "Приседания «сумо» в быстром темпе",
        "sets_display": "3×10–12 раз",
        "weight": "",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=VYvnjkfIiSU",
+       "video_title": "Приседания плие"
       },
       {
        "name": "Отжимания с резким отталкиванием",
        "alt": "Быстрые отжимания от дивана/стены",
        "sets_display": "3×6–10 раз",
        "weight": "",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=zGddnFxqrsM",
+       "video_title": "Отжимания от пола. Отжимайся правильно!"
       },
       {
        "name": "Быстрые запрыгивания на низкую опору",
        "alt": "Быстрые подъёмы на опору без запрыгивания",
        "sets_display": "3×10–12 раз",
        "weight": "",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=qEpCvxPjoP0",
+       "video_title": "Прыжки на тумбу"
       },
       {
        "name": "Скручивания на пресс в быстром темпе",
        "alt": "Скручивания с согнутыми ногами в среднем темпе",
        "sets_display": "3×15–20 раз",
        "weight": "",
-       "rest": "30 сек"
+       "rest": "30 сек",
+       "video_url": "https://www.youtube.com/watch?v=Sl-P_8q1DI8",
+       "video_title": "Лучшие упражнения для пресса - топ 10."
       }
      ],
      "День 3 — Всё тело C": [
@@ -4898,14 +5378,18 @@
        "alt": "Быстрая ходьба с ускорением на 10–15 м",
        "sets_display": "2–3×4–6 повторов",
        "weight": "",
-       "rest": "45–60 сек"
+       "rest": "45–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=uaSIg2gl3uw",
+       "video_title": "Бег - быстрый темп (спринт)."
       },
       {
        "name": "Выпады со сменой ног в прыжке",
        "alt": "Выпады на месте в быстром темпе",
        "sets_display": "3×8–10 на ногу",
        "weight": "",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=8v4QoXor_bg",
+       "video_title": "Выпады + махи"
       },
       {
        "name": "Отжимания с хлопком (или с колен)",
@@ -4921,7 +5405,9 @@
        "alt": "Подъём согнутых ног в среднем темпе",
        "sets_display": "3×12–15 раз",
        "weight": "",
-       "rest": "30 сек"
+       "rest": "30 сек",
+       "video_url": "https://www.youtube.com/watch?v=2a9BJc_tpRA",
+       "video_title": "Подъем ног в упоре"
       }
      ]
     },
@@ -4941,21 +5427,27 @@
        "alt": "Выпады на месте в быстром темпе",
        "sets_display": "3×8–10 на ногу",
        "weight": "",
-       "rest": "45–60 сек"
+       "rest": "45–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=8v4QoXor_bg",
+       "video_title": "Выпады + махи"
       },
       {
        "name": "Быстрые запрыгивания на низкую опору",
        "alt": "Быстрые подъёмы на опору без запрыгивания",
        "sets_display": "3×10–12 раз",
        "weight": "",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=qEpCvxPjoP0",
+       "video_title": "Прыжки на тумбу"
       },
       {
        "name": "Приседания «сумо» с выпрыгиванием",
        "alt": "Приседания «сумо» в быстром темпе",
        "sets_display": "3×10–12 раз",
        "weight": "",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=VYvnjkfIiSU",
+       "video_title": "Приседания плие"
       }
      ],
      "День 2 и День 4 — Верх тела + Кор": [
@@ -4982,14 +5474,18 @@
        "alt": "Тяга с бутылками в обычном темпе",
        "sets_display": "3×12–15 раз",
        "weight": "",
-       "rest": "30 сек"
+       "rest": "30 сек",
+       "video_url": "https://www.youtube.com/watch?v=DLpIrbhR3X8",
+       "video_title": "Тяга гантели в наклоне"
       },
       {
        "name": "Быстрые удары руками в воздух (бой с тенью)",
        "alt": "То же движение в среднем темпе",
        "sets_display": "3×30–40 сек",
        "weight": "",
-       "rest": "30 сек"
+       "rest": "30 сек",
+       "video_url": "https://www.youtube.com/watch?v=gH6gYsQETxo",
+       "video_title": "Подъемы камня перед собой"
       }
      ]
     }
@@ -5042,14 +5538,18 @@
        "alt": "Приседания с выпрыгиванием без отягощения",
        "sets_display": "3–4×10–12 раз",
        "weight": "",
-       "rest": "75–90 сек"
+       "rest": "75–90 сек",
+       "video_url": "https://www.youtube.com/watch?v=VYvnjkfIiSU",
+       "video_title": "Приседания плие"
       },
       {
        "name": "Плиометрические выпады с запрыгиванием на возвышение",
        "alt": "Выпады с прыжком со сменой ног",
        "sets_display": "3–4×8–10 на ногу",
        "weight": "",
-       "rest": "60–75 сек"
+       "rest": "60–75 сек",
+       "video_url": "https://www.youtube.com/watch?v=8v4QoXor_bg",
+       "video_title": "Выпады + махи"
       },
       {
        "name": "Прыжки в глубину с последующим выпрыгиванием вверх (депт-джамп)",
@@ -5065,7 +5565,9 @@
        "alt": "Приседания «сумо» с выпрыгиванием без разведения ног",
        "sets_display": "3–4×10–12 раз",
        "weight": "",
-       "rest": "60–75 сек"
+       "rest": "60–75 сек",
+       "video_url": "https://www.youtube.com/watch?v=VYvnjkfIiSU",
+       "video_title": "Приседания плие"
       }
      ],
      "День 2 и День 4 — Верх тела + Кор (высокая интенсивность)": [
@@ -5092,14 +5594,18 @@
        "alt": "Рывок бутылок к груди",
        "sets_display": "3–4×10–12 раз",
        "weight": "",
-       "rest": "45–60 сек"
+       "rest": "45–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=bQGMIbfkWpY",
+       "video_title": "Приседания со штангой над головой"
       },
       {
        "name": "Отжимания с перепрыгиванием рук через линию",
        "alt": "Обычные отжимания с хлопком",
        "sets_display": "3×8–10 раз",
        "weight": "",
-       "rest": "45–60 сек"
+       "rest": "45–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=zGddnFxqrsM",
+       "video_title": "Отжимания от пола. Отжимайся правильно!"
       }
      ]
     }
@@ -5112,35 +5618,45 @@
        "alt": "Приседания с выпрыгиванием в половину амплитуды",
        "sets_display": "3–4×10–12 раз",
        "weight": "",
-       "rest": "60–75 сек"
+       "rest": "60–75 сек",
+       "video_url": "https://www.youtube.com/watch?v=VYvnjkfIiSU",
+       "video_title": "Приседания плие"
       },
       {
        "name": "Отжимания с хлопком перед грудью",
        "alt": "Отжимания с резким отталкиванием",
        "sets_display": "3–4×8–10 раз",
        "weight": "",
-       "rest": "60–75 сек"
+       "rest": "60–75 сек",
+       "video_url": "https://www.youtube.com/watch?v=zGddnFxqrsM",
+       "video_title": "Отжимания от пола. Отжимайся правильно!"
       },
       {
        "name": "Запрыгивания на возвышение",
        "alt": "Быстрые запрыгивания на низкую опору",
        "sets_display": "3×8–10 раз",
        "weight": "",
-       "rest": "60 сек"
+       "rest": "60 сек",
+       "video_url": "https://www.youtube.com/watch?v=qEpCvxPjoP0",
+       "video_title": "Прыжки на тумбу"
       },
       {
        "name": "Выпады с прыжком со сменой ног",
        "alt": "Выпады со сменой ног в медленном темпе",
        "sets_display": "3×10–12 на ногу",
        "weight": "",
-       "rest": "60–75 сек"
+       "rest": "60–75 сек",
+       "video_url": "https://www.youtube.com/watch?v=8v4QoXor_bg",
+       "video_title": "Выпады + махи"
       },
       {
        "name": "«Альпинист» в максимально быстром темпе + Планка-джек (суперсет)",
        "alt": "«Альпинист» в среднем темпе + Обычная планка",
        "sets_display": "3×30–40 сек + 30– 40 сек",
        "weight": "",
-       "rest": "40–50 сек внутри"
+       "rest": "40–50 сек внутри",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       }
      ],
      "День 2 — Всё тело B (взрывная сила + кор)": [
@@ -5149,14 +5665,18 @@
        "alt": "Прыжки в длину в половину силы",
        "sets_display": "3×6–8 раз",
        "weight": "",
-       "rest": "60–75 сек"
+       "rest": "60–75 сек",
+       "video_url": "https://www.youtube.com/watch?v=qEpCvxPjoP0",
+       "video_title": "Прыжки на тумбу"
       },
       {
        "name": "Приседания «сумо» с выпрыгиванием и разведением ног",
        "alt": "Приседания «сумо» с выпрыгиванием без разведения",
        "sets_display": "3×10–12 раз",
        "weight": "",
-       "rest": "60 сек"
+       "rest": "60 сек",
+       "video_url": "https://www.youtube.com/watch?v=VYvnjkfIiSU",
+       "video_title": "Приседания плие"
       },
       {
        "name": "Отжимания с хлопком за спиной",
@@ -5181,7 +5701,9 @@
        "alt": "Скручивания на пресс в быстром темпе",
        "sets_display": "3×12–15 раз",
        "weight": "",
-       "rest": "30–45 сек"
+       "rest": "30–45 сек",
+       "video_url": "https://www.youtube.com/watch?v=Sl-P_8q1DI8",
+       "video_title": "Лучшие упражнения для пресса - топ 10."
       }
      ],
      "День 3 — Всё тело C + интервальная работа": [
@@ -5190,14 +5712,18 @@
        "alt": "Берпи без хлопка над головой",
        "sets_display": "3×8–10 раз",
        "weight": "",
-       "rest": "60–75 сек"
+       "rest": "60–75 сек",
+       "video_url": "https://www.youtube.com/watch?v=vxwUq4xovns",
+       "video_title": "Бурпи (берпи)"
       },
       {
        "name": "Спринт с ускорением 20–30 м",
        "alt": "Быстрый бег трусцой с ускорением на финише",
        "sets_display": "2–3×5–6 повторов",
        "weight": "",
-       "rest": "60–75 сек"
+       "rest": "60–75 сек",
+       "video_url": "https://www.youtube.com/watch?v=uaSIg2gl3uw",
+       "video_title": "Бег - быстрый темп (спринт)."
       },
       {
        "name": "Прыжки на одной ноге вперёд (с опорой)",
@@ -5213,14 +5739,18 @@
        "alt": "Отжимания с резким отталкиванием",
        "sets_display": "3×8–10 раз",
        "weight": "",
-       "rest": "60–75 сек"
+       "rest": "60–75 сек",
+       "video_url": "https://www.youtube.com/watch?v=zGddnFxqrsM",
+       "video_title": "Отжимания от пола. Отжимайся правильно!"
       },
       {
        "name": "Бросок рюкзака/мяча в пол из- за головы",
        "alt": "Имитация броска без веса",
        "sets_display": "3×10–12 раз",
        "weight": "",
-       "rest": "30–45 сек"
+       "rest": "30–45 сек",
+       "video_url": "https://www.youtube.com/watch?v=PlUSQt9ppjQ",
+       "video_title": "Броски медбола (Wall Ball)"
       }
      ]
     },
@@ -5231,28 +5761,36 @@
        "alt": "Приседания с выпрыгиванием в половину амплитуды",
        "sets_display": "3–4×10–12 раз",
        "weight": "",
-       "rest": "60–75 сек"
+       "rest": "60–75 сек",
+       "video_url": "https://www.youtube.com/watch?v=VYvnjkfIiSU",
+       "video_title": "Приседания плие"
       },
       {
        "name": "Выпады с прыжком со сменой ног",
        "alt": "Выпады со сменой ног в медленном темпе",
        "sets_display": "3–4×10–12 на ногу",
        "weight": "",
-       "rest": "60–75 сек"
+       "rest": "60–75 сек",
+       "video_url": "https://www.youtube.com/watch?v=8v4QoXor_bg",
+       "video_title": "Выпады + махи"
       },
       {
        "name": "Запрыгивания на возвышение",
        "alt": "Быстрые запрыгивания на низкую опору",
        "sets_display": "3×8–10 раз",
        "weight": "",
-       "rest": "60 сек"
+       "rest": "60 сек",
+       "video_url": "https://www.youtube.com/watch?v=qEpCvxPjoP0",
+       "video_title": "Прыжки на тумбу"
       },
       {
        "name": "Приседания «сумо» с выпрыгиванием и разведением ног",
        "alt": "Приседания «сумо» с выпрыгиванием без разведения",
        "sets_display": "3×10–12 раз",
        "weight": "",
-       "rest": "60 сек"
+       "rest": "60 сек",
+       "video_url": "https://www.youtube.com/watch?v=VYvnjkfIiSU",
+       "video_title": "Приседания плие"
       }
      ],
      "День 2 и День 4 — Верх тела + Кор (взрывная сила верха + спина)": [
@@ -5261,7 +5799,9 @@
        "alt": "Отжимания с резким отталкиванием",
        "sets_display": "3–4×8–10 раз",
        "weight": "",
-       "rest": "60–75 сек"
+       "rest": "60–75 сек",
+       "video_url": "https://www.youtube.com/watch?v=zGddnFxqrsM",
+       "video_title": "Отжимания от пола. Отжимайся правильно!"
       },
       {
        "name": "Отжимания с хлопком за спиной",
@@ -5286,14 +5826,18 @@
        "alt": "Рывок бутылок к груди",
        "sets_display": "3×10–12 раз",
        "weight": "",
-       "rest": "45–60 сек"
+       "rest": "45–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=bQGMIbfkWpY",
+       "video_title": "Приседания со штангой над головой"
       },
       {
        "name": "Быстрая серия ударов руками с уходом в полуприсед",
        "alt": "То же движение в среднем темпе",
        "sets_display": "3×40–50 сек",
        "weight": "",
-       "rest": "30–45 сек"
+       "rest": "30–45 сек",
+       "video_url": "https://www.youtube.com/watch?v=VYvnjkfIiSU",
+       "video_title": "Приседания плие"
       }
      ]
     }
@@ -5308,14 +5852,18 @@
        "alt": "Медленный марш без касания",
        "sets_display": "3",
        "weight": "",
-       "rest": "50 сек"
+       "rest": "50 сек",
+       "video_url": "https://www.youtube.com/watch?v=g1GmVoJkUaQ",
+       "video_title": "Бег сгибая ноги назад, показ"
       },
       {
        "name": "Ходьба по линии «носок к пятке»",
        "alt": "Обычная ходьба с концентрацией",
        "sets_display": "3",
        "weight": "",
-       "rest": "50 сек"
+       "rest": "50 сек",
+       "video_url": "https://www.youtube.com/watch?v=JFQ9FxPceRY",
+       "video_title": "Бег - средний темп"
       },
       {
        "name": "Планка",
@@ -5351,14 +5899,18 @@
        "alt": "Обычные шаги в сторону",
        "sets_display": "3",
        "weight": "",
-       "rest": "50 сек"
+       "rest": "50 сек",
+       "video_url": "https://www.youtube.com/watch?v=WxyUvd1RABQ",
+       "video_title": "Бег приставными шагами, показ"
       },
       {
        "name": "Перекрёстные шаги",
        "alt": "Приставные шаги без скрещивания",
        "sets_display": "3",
        "weight": "",
-       "rest": "50 сек"
+       "rest": "50 сек",
+       "video_url": "https://www.youtube.com/watch?v=oJFcF9_8KzU",
+       "video_title": "Зашагивания на платформу с гантелями"
       },
       {
        "name": "Скручивания на пресс",
@@ -5376,28 +5928,36 @@
        "alt": "Ходьба с высоким подниманием колен",
        "sets_display": "—",
        "weight": "",
-       "rest": "25 сек"
+       "rest": "25 сек",
+       "video_url": "https://www.youtube.com/watch?v=yulAKyL_RgI",
+       "video_title": "34 упражнения с гирей"
       },
       {
        "name": "Степ-ап на низкой опоре",
        "alt": "Подъёмы на носки на месте",
        "sets_display": "—",
        "weight": "",
-       "rest": "25 сек"
+       "rest": "25 сек",
+       "video_url": "https://www.youtube.com/watch?v=qEpCvxPjoP0",
+       "video_title": "Прыжки на тумбу"
       },
       {
        "name": "Скакалка / имитация",
        "alt": "Имитация прыжков без скакалки",
        "sets_display": "—",
        "weight": "",
-       "rest": "25 сек"
+       "rest": "25 сек",
+       "video_url": "https://www.youtube.com/watch?v=t4vZL1-cWUw",
+       "video_title": "Двойные прыжки на скакалке"
       },
       {
        "name": "Ходьба спиной вперёд",
        "alt": "Медленная ходьба спиной с поддержкой",
        "sets_display": "3",
        "weight": "",
-       "rest": "50 сек"
+       "rest": "50 сек",
+       "video_url": "https://www.youtube.com/watch?v=JFQ9FxPceRY",
+       "video_title": "Бег - средний темп"
       },
       {
        "name": "Супермен",
@@ -5428,7 +5988,9 @@
        "alt": "Обычная ходьба с концентрацией",
        "sets_display": "3",
        "weight": "",
-       "rest": "50 сек"
+       "rest": "50 сек",
+       "video_url": "https://www.youtube.com/watch?v=JFQ9FxPceRY",
+       "video_title": "Бег - средний темп"
       },
       {
        "name": "Стойка на одной ноге",
@@ -5444,7 +6006,9 @@
        "alt": "Приставные шаги без скрещивания",
        "sets_display": "3",
        "weight": "",
-       "rest": "50 сек"
+       "rest": "50 сек",
+       "video_url": "https://www.youtube.com/watch?v=oJFcF9_8KzU",
+       "video_title": "Зашагивания на платформу с гантелями"
       }
      ]
     },
@@ -5455,7 +6019,9 @@
        "alt": "Обычная ходьба с концентрацией",
        "sets_display": "3",
        "weight": "",
-       "rest": "50 сек"
+       "rest": "50 сек",
+       "video_url": "https://www.youtube.com/watch?v=JFQ9FxPceRY",
+       "video_title": "Бег - средний темп"
       },
       {
        "name": "Стойка на одной ноге",
@@ -5502,21 +6068,27 @@
        "alt": "Приставные шаги без скрещивания",
        "sets_display": "3",
        "weight": "",
-       "rest": "50 сек"
+       "rest": "50 сек",
+       "video_url": "https://www.youtube.com/watch?v=oJFcF9_8KzU",
+       "video_title": "Зашагивания на платформу с гантелями"
       },
       {
        "name": "Марш на месте с касанием локтем колена",
        "alt": "Медленный марш без касания",
        "sets_display": "3",
        "weight": "",
-       "rest": "50 сек"
+       "rest": "50 сек",
+       "video_url": "https://www.youtube.com/watch?v=g1GmVoJkUaQ",
+       "video_title": "Бег сгибая ноги назад, показ"
       },
       {
        "name": "Ходьба спиной вперёд",
        "alt": "Медленная ходьба спиной с поддержкой",
        "sets_display": "3",
        "weight": "",
-       "rest": "50 сек"
+       "rest": "50 сек",
+       "video_url": "https://www.youtube.com/watch?v=JFQ9FxPceRY",
+       "video_title": "Бег - средний темп"
       }
      ],
      "День 5 — Интервальное кардио (всё тело)": [
@@ -5534,14 +6106,18 @@
        "alt": "Ходьба с высоким подниманием колен",
        "sets_display": "—",
        "weight": "",
-       "rest": "25 сек"
+       "rest": "25 сек",
+       "video_url": "https://www.youtube.com/watch?v=yulAKyL_RgI",
+       "video_title": "34 упражнения с гирей"
       },
       {
        "name": "Степ-ап",
        "alt": "Подъёмы на носки на месте",
        "sets_display": "—",
        "weight": "",
-       "rest": "25 сек"
+       "rest": "25 сек",
+       "video_url": "https://www.youtube.com/watch?v=qEpCvxPjoP0",
+       "video_title": "Прыжки на тумбу"
       }
      ]
     }
@@ -5554,14 +6130,18 @@
        "alt": "Простые быстрые шаги на месте",
        "sets_display": "3",
        "weight": "",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=WxyUvd1RABQ",
+       "video_title": "Бег приставными шагами, показ"
       },
       {
        "name": "Ходьба по линии со сменой направления по сигналу",
        "alt": "Ходьба по линии спиной вперёд",
        "sets_display": "3",
        "weight": "",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=JFQ9FxPceRY",
+       "video_title": "Бег - средний темп"
       },
       {
        "name": "Планка-джек",
@@ -5579,14 +6159,18 @@
        "alt": "Берпи без хлопка",
        "sets_display": "4",
        "weight": "",
-       "rest": "40 сек"
+       "rest": "40 сек",
+       "video_url": "https://www.youtube.com/watch?v=vxwUq4xovns",
+       "video_title": "Бурпи (берпи)"
       },
       {
        "name": "Стойка на одной ноге с закрытыми глазами и движениями рук",
        "alt": "Стойка с закрытыми глазами без движений",
        "sets_display": "3",
        "weight": "",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=ldeNlzR8pho",
+       "video_title": "Толчок одной гири"
       },
       {
        "name": "Прыжки на одной ноге через линию (вперёд-назад-вбок)",
@@ -5602,7 +6186,9 @@
        "alt": "Обычный выпад с поворотом корпуса",
        "sets_display": "3",
        "weight": "",
-       "rest": "50 сек"
+       "rest": "50 сек",
+       "video_url": "https://www.youtube.com/watch?v=g1GmVoJkUaQ",
+       "video_title": "Бег сгибая ноги назад, показ"
       },
       {
        "name": "V-скручивания (складка)",
@@ -5620,7 +6206,9 @@
        "alt": "Перекладывание двух мячей крест-накрест",
        "sets_display": "3",
        "weight": "",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=PlUSQt9ppjQ",
+       "video_title": "Броски медбола (Wall Ball)"
       },
       {
        "name": "«Пловец» (динамичный супермен)",
@@ -5640,7 +6228,9 @@
        "alt": "Ягодичный мостик на одной ноге без паузы",
        "sets_display": "3",
        "weight": "",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=1epi9iFvpIA",
+       "video_title": "Мостик на двух ногах"
       }
      ],
      "День 2 и День 4 — Координация (продвинутый уровень)": [
@@ -5649,14 +6239,18 @@
        "alt": "Ходьба по линии спиной вперёд",
        "sets_display": "3",
        "weight": "",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=JFQ9FxPceRY",
+       "video_title": "Бег - средний темп"
       },
       {
        "name": "Стойка на одной ноге с закрытыми глазами и движениями рук",
        "alt": "Стойка с закрытыми глазами без движений",
        "sets_display": "3",
        "weight": "",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=ldeNlzR8pho",
+       "video_title": "Толчок одной гири"
       },
       {
        "name": "Прыжки на одной ноге через линию (комбинация)",
@@ -5676,14 +6270,18 @@
        "alt": "Ходьба по линии спиной вперёд",
        "sets_display": "3",
        "weight": "",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=JFQ9FxPceRY",
+       "video_title": "Бег - средний темп"
       },
       {
        "name": "Стойка на одной ноге с закрытыми глазами и движениями рук",
        "alt": "Стойка с закрытыми глазами без движений",
        "sets_display": "3",
        "weight": "",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=ldeNlzR8pho",
+       "video_title": "Толчок одной гири"
       }
      ],
      "День 3 — Кор и стабилизация (мощный блок)": [
@@ -5721,21 +6319,27 @@
        "alt": "Обычный выпад с поворотом корпуса",
        "sets_display": "3",
        "weight": "",
-       "rest": "50 сек"
+       "rest": "50 сек",
+       "video_url": "https://www.youtube.com/watch?v=g1GmVoJkUaQ",
+       "video_title": "Бег сгибая ноги назад, показ"
       },
       {
        "name": "Сложные быстрые шаги на месте",
        "alt": "Простые быстрые шаги на месте",
        "sets_display": "3",
        "weight": "",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=WxyUvd1RABQ",
+       "video_title": "Бег приставными шагами, показ"
       },
       {
        "name": "Бросок и ловля мяча с поворотом корпуса",
        "alt": "Перекладывание двух мячей крест-накрест",
        "sets_display": "3",
        "weight": "",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=PlUSQt9ppjQ",
+       "video_title": "Броски медбола (Wall Ball)"
       }
      ]
     }
@@ -5748,28 +6352,36 @@
        "alt": "Те же шаги в среднем темпе",
        "sets_display": "3",
        "weight": "",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=WxyUvd1RABQ",
+       "video_title": "Бег приставными шагами, показ"
       },
       {
        "name": "Ходьба по линии спиной вперёд",
        "alt": "Ходьба по линии лицом вперёд",
        "sets_display": "3",
        "weight": "",
-       "rest": "40 сек"
+       "rest": "40 сек",
+       "video_url": "https://www.youtube.com/watch?v=JFQ9FxPceRY",
+       "video_title": "Бег - средний темп"
       },
       {
        "name": "Планка с попеременным подъёмом руки и ноги",
        "alt": "Обычная планка",
        "sets_display": "3",
        "weight": "",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       },
       {
        "name": "Ягодичный мостик на одной ноге",
        "alt": "Ягодичный мостик на двух ногах",
        "sets_display": "3",
        "weight": "",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=1epi9iFvpIA",
+       "video_title": "Мостик на двух ногах"
       }
      ],
      "День 2 — Координация и равновесие (средний уровень)": [
@@ -5805,7 +6417,9 @@
        "alt": "Выпады без поворота",
        "sets_display": "3",
        "weight": "",
-       "rest": "50 сек"
+       "rest": "50 сек",
+       "video_url": "https://www.youtube.com/watch?v=8v4QoXor_bg",
+       "video_title": "Выпады + махи"
       },
       {
        "name": "Скручивания «велосипед»",
@@ -5841,7 +6455,9 @@
        "alt": "Скакалка в среднем темпе",
        "sets_display": "—",
        "weight": "",
-       "rest": "20 сек"
+       "rest": "20 сек",
+       "video_url": "https://www.youtube.com/watch?v=t4vZL1-cWUw",
+       "video_title": "Двойные прыжки на скакалке"
       },
       {
        "name": "Прыжки на одной ноге вперёд- назад",
@@ -5857,7 +6473,9 @@
        "alt": "Птица-собака без задержки",
        "sets_display": "3",
        "weight": "",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       }
      ]
     },
@@ -5868,14 +6486,18 @@
        "alt": "Ягодичный мостик на двух ногах",
        "sets_display": "3",
        "weight": "",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=1epi9iFvpIA",
+       "video_title": "Мостик на двух ногах"
       },
       {
        "name": "Планка с попеременным подъёмом руки и ноги",
        "alt": "Обычная планка",
        "sets_display": "3",
        "weight": "",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       }
      ],
      "День 2 и День 4 — Координация и равновесие (средний уровень)": [
@@ -5884,7 +6506,9 @@
        "alt": "Ходьба по линии лицом вперёд",
        "sets_display": "3",
        "weight": "",
-       "rest": "40 сек"
+       "rest": "40 сек",
+       "video_url": "https://www.youtube.com/watch?v=JFQ9FxPceRY",
+       "video_title": "Бег - средний темп"
       },
       {
        "name": "Стойка на одной ноге с закрытыми глазами",
@@ -5909,7 +6533,9 @@
        "alt": "Выпады без поворота",
        "sets_display": "3",
        "weight": "",
-       "rest": "50 сек"
+       "rest": "50 сек",
+       "video_url": "https://www.youtube.com/watch?v=8v4QoXor_bg",
+       "video_title": "Выпады + махи"
       }
      ]
     },
@@ -5920,7 +6546,9 @@
        "alt": "Ходьба по линии лицом вперёд",
        "sets_display": "3",
        "weight": "",
-       "rest": "40 сек"
+       "rest": "40 сек",
+       "video_url": "https://www.youtube.com/watch?v=JFQ9FxPceRY",
+       "video_title": "Бег - средний темп"
       },
       {
        "name": "Стойка на одной ноге с закрытыми глазами",
@@ -5938,21 +6566,27 @@
        "alt": "Обычная планка",
        "sets_display": "3",
        "weight": "",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       },
       {
        "name": "Мёртвый жук",
        "alt": "Мёртвый жук без веса",
        "sets_display": "3",
        "weight": "",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=oqh7hHMlNyU",
+       "video_title": "Мертвая тяга"
       },
       {
        "name": "Ягодичный мостик на одной ноге",
        "alt": "Ягодичный мостик на двух ногах",
        "sets_display": "3",
        "weight": "",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=1epi9iFvpIA",
+       "video_title": "Мостик на двух ногах"
       }
      ],
      "День 4 — Координация (усложнённая) + Баланс": [
@@ -5961,21 +6595,27 @@
        "alt": "Выпады без поворота",
        "sets_display": "3",
        "weight": "",
-       "rest": "50 сек"
+       "rest": "50 сек",
+       "video_url": "https://www.youtube.com/watch?v=8v4QoXor_bg",
+       "video_title": "Выпады + махи"
       },
       {
        "name": "Быстрые мелкие шаги на месте",
        "alt": "Те же шаги в среднем темпе",
        "sets_display": "3",
        "weight": "",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=WxyUvd1RABQ",
+       "video_title": "Бег приставными шагами, показ"
       },
       {
        "name": "Перекладывание двух мячей крест-накрест",
        "alt": "Перекладывание одного мяча",
        "sets_display": "3",
        "weight": "",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=lCCZkFzvoK8",
+       "video_title": "Рывок двух гирь"
       }
      ],
      "День 5 — Интервальное кардио (всё тело)": [
@@ -6066,7 +6706,9 @@
        "alt": "Обычные приседания",
        "sets_display": "3×12–15 раз",
        "weight": "",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=27Ga0yJazbk",
+       "video_title": "Приседания с камнем на 1 ноге"
       },
       {
        "name": "Разведение рук в стороны с бутылками воды",
@@ -6082,7 +6724,9 @@
        "alt": "Мостик с паузой 2 сек вверху",
        "sets_display": "3×15–20 раз",
        "weight": "",
-       "rest": "30 сек"
+       "rest": "30 сек",
+       "video_url": "https://www.youtube.com/watch?v=1epi9iFvpIA",
+       "video_title": "Мостик на двух ногах"
       }
      ],
      "День 3 — Ноги + верх тела + гибкость": [
@@ -6091,7 +6735,9 @@
        "alt": "Ходьба с высоким подниманием колен",
        "sets_display": "3×30 сек",
        "weight": "",
-       "rest": "30 сек"
+       "rest": "30 сек",
+       "video_url": "https://www.youtube.com/watch?v=yulAKyL_RgI",
+       "video_title": "34 упражнения с гирей"
       },
       {
        "name": "Выпады назад",
@@ -6289,14 +6935,18 @@
        "alt": "Болгарские выпады без прыжка",
        "sets_display": "3–4×10–12 на ногу",
        "weight": "",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=8v4QoXor_bg",
+       "video_title": "Выпады + махи"
       },
       {
        "name": "Планка с попеременным быстрым выносом рук вперёд",
        "alt": "Обычная планка на локтях, статично",
        "sets_display": "3–4×30–45 сек",
        "weight": "",
-       "rest": "30 сек"
+       "rest": "30 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       }
      ],
      "День 2 — Верх тела + пресс": [
@@ -6305,7 +6955,9 @@
        "alt": "Берпи без отжимания (упрощённый вариант)",
        "sets_display": "4×40–45 сек",
        "weight": "",
-       "rest": "30 сек"
+       "rest": "30 сек",
+       "video_url": "https://www.youtube.com/watch?v=vxwUq4xovns",
+       "video_title": "Бурпи (берпи)"
       },
       {
        "name": "Подтягивания на турнике (прямым/обратным хватом)",
@@ -6321,21 +6973,27 @@
        "alt": "Обычные отжимания с узкой постановкой с колен",
        "sets_display": "3–4×10–12 раз",
        "weight": "",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=zGddnFxqrsM",
+       "video_title": "Отжимания от пола. Отжимайся правильно!"
       },
       {
        "name": "Жим бутылок/гантелей над головой с выпадом вперёд",
        "alt": "Жим над головой стоя без выпада",
        "sets_display": "3×10–12 на сторону",
        "weight": "",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=8v4QoXor_bg",
+       "video_title": "Выпады + махи"
       },
       {
        "name": "«Дровосек» — диагональное скручивание корпуса с весом",
        "alt": "«Дровосек» без веса, только с амплитудой",
        "sets_display": "3×12–15 на сторону",
        "weight": "",
-       "rest": "30 сек"
+       "rest": "30 сек",
+       "video_url": "https://www.youtube.com/watch?v=jR4CGFfxOsU",
+       "video_title": "Пресс + диск"
       }
      ],
      "День 3 — Ноги/ягодицы + координация": [
@@ -6344,7 +7002,9 @@
        "alt": "Приседания с выпрыгиванием вверх без запрыгивания",
        "sets_display": "3–4×10–12 раз",
        "weight": "",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=qEpCvxPjoP0",
+       "video_title": "Прыжки на тумбу"
       },
       {
        "name": "Приседания на одной ноге со ступеньки (степ-даун с контролем)",
@@ -6360,14 +7020,18 @@
        "alt": "Присед сумо с паузой внизу без прыжка",
        "sets_display": "3–4×12–15 раз",
        "weight": "",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=VYvnjkfIiSU",
+       "video_title": "Приседания плие"
       },
       {
        "name": "Ягодичный мостик на одной ноге с отягощением (рюкзак/бутылки)",
        "alt": "Ягодичный мостик на одной ноге без веса",
        "sets_display": "3–4×12–15 на ногу",
        "weight": "",
-       "rest": "30–45 сек"
+       "rest": "30–45 сек",
+       "video_url": "https://www.youtube.com/watch?v=1epi9iFvpIA",
+       "video_title": "Мостик на двух ногах"
       },
       {
        "name": "Обратные отжимания от стула с ногами на возвышении",
@@ -6396,7 +7060,9 @@
        "alt": "Болгарские выпады без прыжка",
        "sets_display": "3–4×10–12 на ногу",
        "weight": "",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=8v4QoXor_bg",
+       "video_title": "Выпады + махи"
       }
      ],
      "День 2 — Верх тела + пресс": [
@@ -6435,21 +7101,27 @@
        "alt": "Присед сумо с паузой внизу без прыжка",
        "sets_display": "3–4×12–15 раз",
        "weight": "",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=VYvnjkfIiSU",
+       "video_title": "Приседания плие"
       },
       {
        "name": "Отжимания с узкой постановкой рук («ромб»)",
        "alt": "Обычные отжимания с узкой постановкой с колен",
        "sets_display": "3–4×10–12 раз",
        "weight": "",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=zGddnFxqrsM",
+       "video_title": "Отжимания от пола. Отжимайся правильно!"
       },
       {
        "name": "Жим бутылок/гантелей над головой с выпадом вперёд",
        "alt": "Жим над головой стоя без выпада",
        "sets_display": "3×10–12 на сторону",
        "weight": "",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=8v4QoXor_bg",
+       "video_title": "Выпады + махи"
       }
      ]
     }
@@ -6489,7 +7161,9 @@
        "alt": "Обычная планка на локтях",
        "sets_display": "3–4×30–45 сек",
        "weight": "",
-       "rest": "30 сек"
+       "rest": "30 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       }
      ],
      "День 2 — Верх тела + пресс": [
@@ -6507,7 +7181,9 @@
        "alt": "Отжимания с колен с широкой постановкой",
        "sets_display": "3–4×10–12 раз",
        "weight": "",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=zGddnFxqrsM",
+       "video_title": "Отжимания от пола. Отжимайся правильно!"
       },
       {
        "name": "Тяга бутылок/гантелей в наклоне",
@@ -6523,7 +7199,9 @@
        "alt": "Жим сидя с меньшим весом",
        "sets_display": "3–4×12–15 раз",
        "weight": "",
-       "rest": "30–45 сек"
+       "rest": "30–45 сек",
+       "video_url": "https://www.youtube.com/watch?v=vM-WaBy_Mw0",
+       "video_title": "Жим гантелей сидя"
       },
       {
        "name": "«Велосипед» (скручивания с касанием локтя колена)",
@@ -6550,21 +7228,27 @@
        "alt": "Обычный ягодичный мостик на двух ногах",
        "sets_display": "3–4×12–15 на ногу",
        "weight": "",
-       "rest": "30–45 сек"
+       "rest": "30–45 сек",
+       "video_url": "https://www.youtube.com/watch?v=1epi9iFvpIA",
+       "video_title": "Мостик на двух ногах"
       },
       {
        "name": "Присед-«пистолетик» с опорой (неполная амплитуда)",
        "alt": "Присед на одной ноге с опорой рукой на стул",
        "sets_display": "3×8–10 на ногу",
        "weight": "",
-       "rest": "45–60 сек"
+       "rest": "45–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=oQTzKO2kXew",
+       "video_title": "Пистолетик - приседания на одной ноге"
       },
       {
        "name": "Присед сумо с паузой 2 сек внизу",
        "alt": "Обычный присед сумо без паузы",
        "sets_display": "3–4×12–15 раз",
        "weight": "",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=VYvnjkfIiSU",
+       "video_title": "Приседания плие"
       }
      ]
     },
@@ -6624,21 +7308,27 @@
        "alt": "Обычный присед сумо без паузы",
        "sets_display": "3–4×12–15 раз",
        "weight": "",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=VYvnjkfIiSU",
+       "video_title": "Приседания плие"
       },
       {
        "name": "Отжимания с широкой постановкой рук",
        "alt": "Отжимания с колен с широкой постановкой",
        "sets_display": "3–4×10–12 раз",
        "weight": "",
-       "rest": "45 сек"
+       "rest": "45 сек",
+       "video_url": "https://www.youtube.com/watch?v=zGddnFxqrsM",
+       "video_title": "Отжимания от пола. Отжимайся правильно!"
       },
       {
        "name": "Жим бутылок/гантелей над головой стоя",
        "alt": "Жим сидя с меньшим весом",
        "sets_display": "3–4×12–15 раз",
        "weight": "",
-       "rest": "30–45 сек"
+       "rest": "30–45 сек",
+       "video_url": "https://www.youtube.com/watch?v=vM-WaBy_Mw0",
+       "video_title": "Жим гантелей сидя"
       }
      ]
     }
@@ -6707,14 +7397,18 @@
        "alt": "Подъём согнутых ног 12–15 раз (легче)",
        "sets_display": "3",
        "weight": "",
-       "rest": "30 сек"
+       "rest": "30 сек",
+       "video_url": "https://www.youtube.com/watch?v=2a9BJc_tpRA",
+       "video_title": "Подъем ног в упоре"
       },
       {
        "name": "Боковая планка Верх тела (руки, грудь,",
        "alt": "Боковая планка с колена 15–20 сек на сторону спина)",
        "sets_display": "2",
        "weight": "",
-       "rest": "30 сек"
+       "rest": "30 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       },
       {
        "name": "Отжимания с колен",
@@ -6754,7 +7448,9 @@
        "alt": "Болгарские выпады без прыжка",
        "sets_display": "6–8 на ногу",
        "weight": "",
-       "rest": "10–20 сек"
+       "rest": "10–20 сек",
+       "video_url": "https://www.youtube.com/watch?v=n1rc4-d8FYU",
+       "video_title": "Болгарские приседания. Приседания на 1 ноге с гантелями"
       },
       {
        "name": "Отжимания с хлопком",
@@ -6779,14 +7475,18 @@
        "alt": "Приседания «сумо» с паузой",
        "sets_display": "10–12 раз",
        "weight": "",
-       "rest": "10–20 сек"
+       "rest": "10–20 сек",
+       "video_url": "https://www.youtube.com/watch?v=VYvnjkfIiSU",
+       "video_title": "Приседания плие"
       },
       {
        "name": "Планка с поочерёдным подъёмом руки и ноги",
        "alt": "Обычная планка с весом",
        "sets_display": "6–8 раз на сторону",
        "weight": "",
-       "rest": "10–20 сек"
+       "rest": "10–20 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       },
       {
        "name": "Ягодичный мост на одной ноге (плечи на стуле)",
@@ -6806,7 +7506,9 @@
        "alt": "Болгарские выпады без прыжка",
        "sets_display": "6–8 на ногу",
        "weight": "",
-       "rest": "10–20 сек"
+       "rest": "10–20 сек",
+       "video_url": "https://www.youtube.com/watch?v=n1rc4-d8FYU",
+       "video_title": "Болгарские приседания. Приседания на 1 ноге с гантелями"
       },
       {
        "name": "Отжимания с хлопком",
@@ -6831,14 +7533,18 @@
        "alt": "Приседания «сумо» с паузой",
        "sets_display": "10–12 раз",
        "weight": "",
-       "rest": "10–20 сек"
+       "rest": "10–20 сек",
+       "video_url": "https://www.youtube.com/watch?v=VYvnjkfIiSU",
+       "video_title": "Приседания плие"
       },
       {
        "name": "Планка с поочерёдным подъёмом руки и ноги",
        "alt": "Обычная планка с весом",
        "sets_display": "6–8 раз на сторону",
        "weight": "",
-       "rest": "10–20 сек"
+       "rest": "10–20 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       },
       {
        "name": "Ягодичный мост на одной ноге (плечи на стуле)",
@@ -6869,7 +7575,9 @@
        "alt": "Классические отжимания",
        "sets_display": "8–12 раз",
        "weight": "",
-       "rest": "— 15–25 сек"
+       "rest": "— 15–25 сек",
+       "video_url": "https://www.youtube.com/watch?v=zGddnFxqrsM",
+       "video_title": "Отжимания от пола. Отжимайся правильно!"
       },
       {
        "name": "Тяга в наклоне с рюкзаком",
@@ -6894,7 +7602,9 @@
        "alt": "Обычная планка",
        "sets_display": "6–8 раз на сторону",
        "weight": "",
-       "rest": "15–25 сек"
+       "rest": "15–25 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       },
       {
        "name": "Ягодичный мост на одной ноге",
@@ -6923,7 +7633,9 @@
        "alt": "Классические отжимания",
        "sets_display": "8–12 раз",
        "weight": "",
-       "rest": "— 15–25 сек"
+       "rest": "— 15–25 сек",
+       "video_url": "https://www.youtube.com/watch?v=zGddnFxqrsM",
+       "video_title": "Отжимания от пола. Отжимайся правильно!"
       },
       {
        "name": "Тяга в наклоне с рюкзаком",
@@ -6948,7 +7660,9 @@
        "alt": "Обычная планка",
        "sets_display": "6–8 раз на сторону",
        "weight": "",
-       "rest": "15–25 сек"
+       "rest": "15–25 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       },
       {
        "name": "Ягодичный мост на одной ноге",
@@ -7066,14 +7780,18 @@
        "alt": "Приседания в медленном темпе",
        "sets_display": "3–4×8–12 раз",
        "weight": "",
-       "rest": "60–90 сек"
+       "rest": "60–90 сек",
+       "video_url": "https://www.youtube.com/watch?v=VYvnjkfIiSU",
+       "video_title": "Приседания плие"
       },
       {
        "name": "Отжимания с широкой постановкой рук",
        "alt": "Отжимания от стула/скамьи",
        "sets_display": "3×8–12 раз",
        "weight": "",
-       "rest": "60–90 сек"
+       "rest": "60–90 сек",
+       "video_url": "https://www.youtube.com/watch?v=zGddnFxqrsM",
+       "video_title": "Отжимания от пола. Отжимайся правильно!"
       },
       {
        "name": "Тяга рюкзака в наклоне двумя руками",
@@ -7089,14 +7807,18 @@
        "alt": "Сгибания с эспандером",
        "sets_display": "3×12–15 раз",
        "weight": "",
-       "rest": "45–60 сек"
+       "rest": "45–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=5LxO7-H3f9Q",
+       "video_title": "Бицепс с гантелей сидя"
       },
       {
        "name": "Подъём ног лёжа",
        "alt": "Подъём согнутых ног",
        "sets_display": "3×12–15 раз",
        "weight": "",
-       "rest": "30–45 сек"
+       "rest": "30–45 сек",
+       "video_url": "https://www.youtube.com/watch?v=2a9BJc_tpRA",
+       "video_title": "Подъем ног в упоре"
       }
      ]
     },
@@ -7134,14 +7856,18 @@
        "alt": "Отжимания с широким хватом",
        "sets_display": "3×10–12 раз",
        "weight": "",
-       "rest": "60–90 сек"
+       "rest": "60–90 сек",
+       "video_url": "https://www.youtube.com/watch?v=z5ukwylbIY4",
+       "video_title": "Жим штанги лежа узким хватом"
       },
       {
        "name": "Сгибания рук с бутылками",
        "alt": "Сгибания с эспандером",
        "sets_display": "3×12–15 раз",
        "weight": "",
-       "rest": "45–60 сек"
+       "rest": "45–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=5LxO7-H3f9Q",
+       "video_title": "Бицепс с гантелей сидя"
       }
      ],
      "День 2 и День 4 — Низ + Кор": [
@@ -7246,21 +7972,27 @@
        "alt": "Отжимания от стула/скамьи",
        "sets_display": "8–12 раз",
        "weight": "",
-       "rest": "60–90 сек —"
+       "rest": "60–90 сек —",
+       "video_url": "https://www.youtube.com/watch?v=zGddnFxqrsM",
+       "video_title": "Отжимания от пола. Отжимайся правильно!"
       },
       {
        "name": "Жим бутылок лёжа на полу",
        "alt": "Отжимания с широким хватом",
        "sets_display": "10–12 раз",
        "weight": "",
-       "rest": "60–90 сек —"
+       "rest": "60–90 сек —",
+       "video_url": "https://www.youtube.com/watch?v=z5ukwylbIY4",
+       "video_title": "Жим штанги лежа узким хватом"
       },
       {
        "name": "Отжимания в упоре «уголком» у стены",
        "alt": "Жим бутылок сидя вверх",
        "sets_display": "8–12 раз",
        "weight": "",
-       "rest": "60 сек —"
+       "rest": "60 сек —",
+       "video_url": "https://www.youtube.com/watch?v=zGddnFxqrsM",
+       "video_title": "Отжимания от пола. Отжимайся правильно!"
       }
      ],
      "День 3 — Pull (Спина + Бицепс) — УСИЛЕННЫЙ": [
@@ -7287,14 +8019,18 @@
        "alt": "Тяга рюкзака в наклоне одной рукой",
        "sets_display": "10–12 раз",
        "weight": "",
-       "rest": "60–90 сек —"
+       "rest": "60–90 сек —",
+       "video_url": "https://www.youtube.com/watch?v=g1GmVoJkUaQ",
+       "video_title": "Бег сгибая ноги назад, показ"
       },
       {
        "name": "Сгибания рук с бутылками",
        "alt": "Сгибания с эспандером",
        "sets_display": "3×12–15 раз",
        "weight": "",
-       "rest": "45–60 сек —"
+       "rest": "45–60 сек —",
+       "video_url": "https://www.youtube.com/watch?v=5LxO7-H3f9Q",
+       "video_title": "Бицепс с гантелей сидя"
       },
       {
        "name": "Молотковые сгибания",
@@ -7312,7 +8048,9 @@
        "alt": "Приседания в медленном темпе",
        "sets_display": "3–4×8–12 раз",
        "weight": "",
-       "rest": "60–90 сек — —"
+       "rest": "60–90 сек — —",
+       "video_url": "https://www.youtube.com/watch?v=VYvnjkfIiSU",
+       "video_title": "Приседания плие"
       },
       {
        "name": "Выпады на месте",
@@ -7399,7 +8137,9 @@
        "alt": "Подтягивания без веса",
        "sets_display": "6–10 раз",
        "weight": "",
-       "rest": "20–30 сек В круге"
+       "rest": "20–30 сек В круге",
+       "video_url": "https://www.youtube.com/watch?v=3EgdV_ipY9Y",
+       "video_title": "Строгие подтягивания на турнике"
       },
       {
        "name": "Выпады с прыжком",
@@ -7415,7 +8155,9 @@
        "alt": "Обычная планка",
        "sets_display": "",
        "weight": "",
-       "rest": "20–30 сек 20–30 сек В круге"
+       "rest": "20–30 сек 20–30 сек В круге",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       }
      ]
     },
@@ -7444,7 +8186,9 @@
        "alt": "Подтягивания обычным хватом",
        "sets_display": "4×6–10 раз",
        "weight": "",
-       "rest": "90–120 сек"
+       "rest": "90–120 сек",
+       "video_url": "https://www.youtube.com/watch?v=3EgdV_ipY9Y",
+       "video_title": "Строгие подтягивания на турнике"
       },
       {
        "name": "Тяга рюкзака в наклоне двумя руками",
@@ -7480,7 +8224,9 @@
        "alt": "Ягодичный мостик на двух ногах с весом",
        "sets_display": "3×12–15 на ногу",
        "weight": "",
-       "rest": "60–75 сек"
+       "rest": "60–75 сек",
+       "video_url": "https://www.youtube.com/watch?v=1epi9iFvpIA",
+       "video_title": "Мостик на двух ногах"
       }
      ]
     }
@@ -7493,7 +8239,9 @@
        "alt": "Приседания у опоры + Румынская тяга на двух ногах",
        "sets_display": "4×10–12 раз + 10– 12 на ногу",
        "weight": "",
-       "rest": "40–50 сек внутри, 90 сек после"
+       "rest": "40–50 сек внутри, 90 сек после",
+       "video_url": "https://www.youtube.com/watch?v=oqh7hHMlNyU",
+       "video_title": "Мертвая тяга"
       },
       {
        "name": "Болгарские сплит-приседания с весом",
@@ -7509,7 +8257,9 @@
        "alt": "Подтягивания обычным хватом",
        "sets_display": "4×6–10 раз",
        "weight": "",
-       "rest": "90–120 сек"
+       "rest": "90–120 сек",
+       "video_url": "https://www.youtube.com/watch?v=3EgdV_ipY9Y",
+       "video_title": "Строгие подтягивания на турнике"
       },
       {
        "name": "Тяга гантелей/бутылок в наклоне одной рукой",
@@ -7545,7 +8295,9 @@
        "alt": "Подъём ног лёжа + Медленные скручивания",
        "sets_display": "3×10–15 раз + 30– 40 сек",
        "weight": "",
-       "rest": "40–50 сек внутри"
+       "rest": "40–50 сек внутри",
+       "video_url": "https://www.youtube.com/watch?v=BStkC_VY-d8",
+       "video_title": "Подъем ног в уголок в висе на турнике"
       }
      ],
      "День 3 — Всё тело C (плотная проработка)": [
@@ -7585,7 +8337,9 @@
        "alt": "Подтягивания обычным хватом",
        "sets_display": "4×6–10 раз",
        "weight": "",
-       "rest": "90–120 сек"
+       "rest": "90–120 сек",
+       "video_url": "https://www.youtube.com/watch?v=3EgdV_ipY9Y",
+       "video_title": "Строгие подтягивания на турнике"
       },
       {
        "name": "Тяга рюкзака в наклоне двумя руками",
@@ -7603,7 +8357,9 @@
        "alt": "Приседания у опоры + Румынская тяга на двух ногах",
        "sets_display": "4×10–12 раз + 10– 12 на ногу",
        "weight": "",
-       "rest": "40–50 сек внутри, 90 сек после"
+       "rest": "40–50 сек внутри, 90 сек после",
+       "video_url": "https://www.youtube.com/watch?v=oqh7hHMlNyU",
+       "video_title": "Мертвая тяга"
       },
       {
        "name": "Болгарские сплит-приседания с весом",
@@ -7619,14 +8375,18 @@
        "alt": "Болгарские сплит- приседания",
        "sets_display": "3×6–8 на ногу",
        "weight": "",
-       "rest": "75–90 сек"
+       "rest": "75–90 сек",
+       "video_url": "https://www.youtube.com/watch?v=oQTzKO2kXew",
+       "video_title": "Пистолетик - приседания на одной ноге"
       },
       {
        "name": "Ягодичный мостик на одной ноге с весом",
        "alt": "Ягодичный мостик на двух ногах с весом",
        "sets_display": "3×10–12 на ногу",
        "weight": "",
-       "rest": "60–75 сек"
+       "rest": "60–75 сек",
+       "video_url": "https://www.youtube.com/watch?v=1epi9iFvpIA",
+       "video_title": "Мостик на двух ногах"
       }
      ]
     },
@@ -7655,21 +8415,27 @@
        "alt": "Ягодичный мостик на одной ноге",
        "sets_display": "3×10–12 на ногу",
        "weight": "",
-       "rest": "60–75 сек"
+       "rest": "60–75 сек",
+       "video_url": "https://www.youtube.com/watch?v=oqh7hHMlNyU",
+       "video_title": "Мертвая тяга"
       },
       {
        "name": "Присед «пистолетик» у опоры",
        "alt": "Болгарские сплит- приседания",
        "sets_display": "3×6–8 на ногу",
        "weight": "",
-       "rest": "75–90 сек"
+       "rest": "75–90 сек",
+       "video_url": "https://www.youtube.com/watch?v=oQTzKO2kXew",
+       "video_title": "Пистолетик - приседания на одной ноге"
       },
       {
        "name": "Планка с попеременным подъёмом руки и ноги",
        "alt": "Обычная планка",
        "sets_display": "3×35–45 сек",
        "weight": "",
-       "rest": "45–60 сек"
+       "rest": "45–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=B_VqCac5jG8",
+       "video_title": "Планка и ее разновидности"
       }
      ],
      "День 2 — Push (Грудь + Плечи + Трицепс)": [
@@ -7678,7 +8444,9 @@
        "alt": "Обычные отжимания от пола",
        "sets_display": "4×10–12 раз",
        "weight": "",
-       "rest": "75–90 сек"
+       "rest": "75–90 сек",
+       "video_url": "https://www.youtube.com/watch?v=zGddnFxqrsM",
+       "video_title": "Отжимания от пола. Отжимайся правильно!"
       },
       {
        "name": "Отжимания на брусьях с доп. весом",
@@ -7714,7 +8482,9 @@
        "alt": "Подтягивания обычным хватом",
        "sets_display": "4×6–10 раз",
        "weight": "",
-       "rest": "90–120 сек"
+       "rest": "90–120 сек",
+       "video_url": "https://www.youtube.com/watch?v=3EgdV_ipY9Y",
+       "video_title": "Строгие подтягивания на турнике"
       },
       {
        "name": "Тяга гантелей/бутылок в наклоне одной рукой",
@@ -7748,7 +8518,9 @@
        "alt": "Обычные сгибания рук",
        "sets_display": "3×10–12 на руку",
        "weight": "",
-       "rest": "45–60 сек"
+       "rest": "45–60 сек",
+       "video_url": "https://www.youtube.com/watch?v=eoqebUqFhMc",
+       "video_title": "Сгибания рук у блока"
       }
      ],
      "День 4 — Ноги + Кор (второй акцент)": [
@@ -7775,14 +8547,18 @@
        "alt": "Ягодичный мостик на двух ногах",
        "sets_display": "3×10–12 на ногу",
        "weight": "",
-       "rest": "60–75 сек"
+       "rest": "60–75 сек",
+       "video_url": "https://www.youtube.com/watch?v=1epi9iFvpIA",
+       "video_title": "Мостик на двух ногах"
       },
       {
        "name": "Подъём на носки на одной ноге с весом",
        "alt": "Подъём на носки двумя ногами",
        "sets_display": "3–4×15–20 на ногу",
        "weight": "",
-       "rest": "40–50 сек"
+       "rest": "40–50 сек",
+       "video_url": "https://www.youtube.com/watch?v=ddryEAxgDNc",
+       "video_title": "Подъемы на носки - 3 вариации"
       }
      ],
      "День 5 — Полнотелесная круговая тренировка": [
@@ -7800,14 +8576,18 @@
        "alt": "Обычные отжимания",
        "sets_display": "10–12 раз",
        "weight": "",
-       "rest": "20–30 сек"
+       "rest": "20–30 сек",
+       "video_url": "https://www.youtube.com/watch?v=zGddnFxqrsM",
+       "video_title": "Отжимания от пола. Отжимайся правильно!"
       },
       {
        "name": "Подтягивания широким хватом",
        "alt": "Подтягивания обычным хватом",
        "sets_display": "6–10 раз",
        "weight": "",
-       "rest": "20–30 сек"
+       "rest": "20–30 сек",
+       "video_url": "https://www.youtube.com/watch?v=3EgdV_ipY9Y",
+       "video_title": "Строгие подтягивания на турнике"
       },
       {
        "name": "Болгарские сплит-приседания",

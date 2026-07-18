@@ -619,7 +619,7 @@ def _plan_days_for(place: str, category: str, level: str, n_days: int):
     return picked[0] if picked else None
 
 
-def _exercise_to_display(ex: dict) -> dict:
+def _exercise_to_display(ex: dict, place: str | None = None) -> dict:
     """Приводит упражнение из training_plans.json к формату, который ждёт
     handlers/training.py: name, sets, technique, video_url?, video_title?."""
     bits = []
@@ -640,6 +640,17 @@ def _exercise_to_display(ex: dict) -> dict:
     if ex.get("video_url"):
         out["video_url"] = ex["video_url"]
         out["video_title"] = ex.get("video_title")
+    else:
+        # добираем видео из каталога sportkuznica на лету
+        try:
+            import video_catalog as vc
+
+            video = vc.find_video(ex["name"], place=place)
+            if video and video.get("video_url"):
+                out["video_url"] = video["video_url"]
+                out["video_title"] = video.get("title")
+        except Exception:
+            pass
     return out
 
 
@@ -687,7 +698,7 @@ def generate_weekly_plan(level: str, place: str = "home", training_types=None, t
         counters[cat] += 1
         plan[day_name] = {
             "rest": False,
-            "exercises": [_exercise_to_display(e) for e in exs],
+            "exercises": [_exercise_to_display(e, place=place_key) for e in exs],
             "focus": label,
         }
     for i, day_name in enumerate(DAYS_RU):
