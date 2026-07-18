@@ -9,11 +9,58 @@ scripts/scrape_sportkuznica.py). Когда появятся твои планы
 from __future__ import annotations
 
 import json
+import logging
+import os
 import re
 import unicodedata
+import urllib.request
 from pathlib import Path
 
-DATA_PATH = Path(__file__).resolve().parent / "data" / "sportkuznica_exercises.json"
+logger = logging.getLogger(__name__)
+
+_BASE_DIR = Path(__file__).resolve().parent
+_CATALOG_NAME = "sportkuznica_exercises.json"
+
+# Fallback: если data/ не попала на хостинг — качаем с публичного GitHub.
+_CATALOG_FALLBACK_URL = os.getenv(
+    "VIDEO_CATALOG_URL",
+    "https://raw.githubusercontent.com/kk228m10-sys/no-skip-club-bot/main/data/sportkuznica_exercises.json",
+)
+
+
+def _candidate_paths() -> list[Path]:
+    """Где может лежать JSON на ПК / Docker / Bothost."""
+    env = (os.getenv("VIDEO_CATALOG_PATH") or "").strip()
+    paths: list[Path] = []
+    if env:
+        paths.append(Path(env))
+    paths.extend(
+        [
+            _BASE_DIR / "data" / _CATALOG_NAME,
+            Path.cwd() / "data" / _CATALOG_NAME,
+            Path("/app/data") / _CATALOG_NAME,
+            Path("/data") / _CATALOG_NAME,
+        ]
+    )
+    # unique preserve order
+    seen: set[str] = set()
+    out: list[Path] = []
+    for p in paths:
+        key = str(p)
+        if key not in seen:
+            seen.add(key)
+            out.append(p)
+    return out
+
+
+def resolve_data_path() -> Path | None:
+    for p in _candidate_paths():
+        if p.is_file() and p.stat().st_size > 0:
+            return p
+    return None
+
+
+DATA_PATH = _BASE_DIR / "data" / _CATALOG_NAME  # default (may be overridden at load)
 
 # Маппинг тегов сайта → place бота
 PLACE_MAP = {
@@ -44,22 +91,82 @@ def _norm(text: str) -> str:
     return text
 
 
+def _ensure_catalog_file() -> Path | None:
+    """Находит локальный JSON или скачивает fallback с GitHub."""
+    global DATA_PATH
+    found = resolve_data_path()
+    if found is not None:
+        DATA_PATH = found
+        return found
+
+    # Сохраняем рядом с кодом (или в /tmp, если data/ read-only)
+    targets = [
+        _BASE_DIR / "data" / _CATALOG_NAME,
+        Path("/tmp") / _CATALOG_NAME,
+        Path.cwd() / "data" / _CATALOG_NAME,
+    ]
+    url = _CATALOG_FALLBACK_URL
+    if not url:
+        logger.warning("Каталог видео не найден локально и VIDEO_CATALOG_URL пуст")
+        return None
+
+    last_err: Exception | None = None
+    for target in targets:
+        try:
+            target.parent.mkdir(parents=True, exist_ok=True)
+            logger.info("Каталог видео: скачиваю fallback %s → %s", url, target)
+            req = urllib.request.Request(url, headers={"User-Agent": "NoSkipClubBot/1.0"})
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                data = resp.read()
+            if not data or len(data) < 100:
+                raise RuntimeError(f"Пустой ответ fallback ({len(data)} bytes)")
+            target.write_bytes(data)
+            DATA_PATH = target
+            logger.info("Каталог видео сохранён: %s (%s bytes)", target, len(data))
+            return target
+        except Exception as e:
+            last_err = e
+            logger.warning("Не удалось сохранить каталог в %s: %s", target, e)
+
+    logger.error("Не удалось получить каталог видео: %s", last_err)
+    return None
+
+
 def load_catalog(force: bool = False) -> list[dict]:
-    global _cache, _by_id
+    global _cache, _by_id, DATA_PATH
     if _cache is not None and not force:
         return _cache
 
-    if not DATA_PATH.exists():
+    path = _ensure_catalog_file()
+    if path is None:
+        logger.warning(
+            "Каталог видео пуст: файл не найден. Искали: %s",
+            ", ".join(str(p) for p in _candidate_paths()),
+        )
         _cache = []
         _by_id = {}
         return _cache
 
-    with open(DATA_PATH, encoding="utf-8") as f:
-        raw = json.load(f)
+    try:
+        with open(path, encoding="utf-8") as f:
+            raw = json.load(f)
+    except Exception as e:
+        logger.error("Не удалось прочитать каталог %s: %s", path, e)
+        _cache = []
+        _by_id = {}
+        return _cache
+
+    if not isinstance(raw, list):
+        logger.error("Каталог %s: ожидался JSON-массив, получено %s", path, type(raw))
+        _cache = []
+        _by_id = {}
+        return _cache
 
     items = []
     by_id = {}
     for row in raw:
+        if not isinstance(row, dict):
+            continue
         if row.get("error") or not row.get("id"):
             continue
         item = dict(row)
@@ -91,6 +198,7 @@ def load_catalog(force: bool = False) -> list[dict]:
 
     _cache = items
     _by_id = by_id
+    logger.info("Каталог видео загружен: %s записей из %s", len(items), path)
     return _cache
 
 

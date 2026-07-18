@@ -49,18 +49,32 @@ async def main():
     # Каталог видео sportkuznica + привязка к библиотеке упражнений
     try:
         import video_catalog as vc
-        from content import EXERCISE_LIBRARY
+        from content import EXERCISE_LIBRARY, _load_training_plans
+
+        # Прогрев JSON (локально или fallback с GitHub, если data/ не на хостинге)
+        plans = _load_training_plans()
+        logger.info("Планы тренировок: categories_loaded=%s", bool(plans))
 
         stats = vc.catalog_stats()
+        if stats["total"] == 0:
+            # повторная попытка force-load (на случай гонки/первого fail)
+            vc.load_catalog(force=True)
+            stats = vc.catalog_stats()
         bound = vc.bind_library_videos(EXERCISE_LIBRARY)
         logger.info(
-            "Каталог видео: %s упражнений, с ссылкой: %s; привязано к библиотеке: %s",
+            "Каталог видео: %s упражнений, с ссылкой: %s; привязано к библиотеке: %s; path=%s",
             stats["total"],
             stats["with_video"],
             bound,
+            stats.get("path"),
         )
+        if stats["total"] == 0:
+            logger.error(
+                "Каталог видео ПУСТ. Проверь data/sportkuznica_exercises.json "
+                "или доступ в интернет для fallback GitHub."
+            )
     except Exception as e:
-        logger.warning("Каталог видео не загрузился: %s", e)
+        logger.exception("Каталог видео не загрузился: %s", e)
 
     bot = Bot(token=config.BOT_TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
     dp = Dispatcher(storage=MemoryStorage())

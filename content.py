@@ -5,11 +5,72 @@
 """
 
 import json
+import logging
+import os
 import random
+import urllib.request
 from pathlib import Path
 
-TRAINING_PLANS_PATH = Path(__file__).resolve().parent / "data" / "training_plans.json"
+logger = logging.getLogger(__name__)
+
+_BASE_DIR = Path(__file__).resolve().parent
+_PLANS_NAME = "training_plans.json"
+TRAINING_PLANS_PATH = _BASE_DIR / "data" / _PLANS_NAME
+_PLANS_FALLBACK_URL = os.getenv(
+    "TRAINING_PLANS_URL",
+    "https://raw.githubusercontent.com/kk228m10-sys/no-skip-club-bot/main/data/training_plans.json",
+)
 _training_plans_cache: dict | None = None
+
+
+def _resolve_plans_path() -> Path | None:
+    env = (os.getenv("TRAINING_PLANS_PATH") or "").strip()
+    candidates = []
+    if env:
+        candidates.append(Path(env))
+    candidates.extend(
+        [
+            _BASE_DIR / "data" / _PLANS_NAME,
+            Path.cwd() / "data" / _PLANS_NAME,
+            Path("/app/data") / _PLANS_NAME,
+            Path("/data") / _PLANS_NAME,
+        ]
+    )
+    for p in candidates:
+        if p.is_file() and p.stat().st_size > 0:
+            return p
+    return None
+
+
+def _ensure_plans_file() -> Path | None:
+    global TRAINING_PLANS_PATH
+    found = _resolve_plans_path()
+    if found is not None:
+        TRAINING_PLANS_PATH = found
+        return found
+
+    url = _PLANS_FALLBACK_URL
+    if not url:
+        return None
+    for target in (
+        _BASE_DIR / "data" / _PLANS_NAME,
+        Path("/tmp") / _PLANS_NAME,
+        Path.cwd() / "data" / _PLANS_NAME,
+    ):
+        try:
+            target.parent.mkdir(parents=True, exist_ok=True)
+            logger.info("Планы тренировок: скачиваю fallback %s → %s", url, target)
+            req = urllib.request.Request(url, headers={"User-Agent": "NoSkipClubBot/1.0"})
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                data = resp.read()
+            if not data or len(data) < 100:
+                raise RuntimeError(f"Пустой ответ ({len(data)} bytes)")
+            target.write_bytes(data)
+            TRAINING_PLANS_PATH = target
+            return target
+        except Exception as e:
+            logger.warning("Не удалось сохранить планы в %s: %s", target, e)
+    return None
 
 
 def _load_training_plans() -> dict:
@@ -26,11 +87,18 @@ def _load_training_plans() -> dict:
     global _training_plans_cache
     if _training_plans_cache is not None:
         return _training_plans_cache
-    if not TRAINING_PLANS_PATH.exists():
+    path = _ensure_plans_file()
+    if path is None:
+        logger.warning("training_plans.json не найден — будет резервный генератор планов")
         _training_plans_cache = {}
         return _training_plans_cache
-    with open(TRAINING_PLANS_PATH, encoding="utf-8") as f:
-        _training_plans_cache = json.load(f)
+    try:
+        with open(path, encoding="utf-8") as f:
+            _training_plans_cache = json.load(f)
+        logger.info("Планы тренировок загружены из %s", path)
+    except Exception as e:
+        logger.error("Не удалось прочитать %s: %s", path, e)
+        _training_plans_cache = {}
     return _training_plans_cache
 
 ABOUT_TEXT = (
