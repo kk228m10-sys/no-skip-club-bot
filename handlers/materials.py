@@ -87,9 +87,8 @@ async def menu_videos(callback: CallbackQuery, state: FSMContext):
 
     if stats["total"] == 0:
         await callback.message.edit_text(
-            "🎬 <b>Видео упражнений</b> · v5\n\n"
-            "Каталог пуст на этом инстансе. Напиши тренеру — нужен redeploy / проверка data.\n"
-            f"path: <code>{stats.get('path') or '—'}</code>",
+            "🎬 <b>Видео упражнений</b>\n\n"
+            "Каталог ещё не загружен. Напиши тренеру.",
             reply_markup=kb.back_to_menu_kb(),
         )
         await callback.answer()
@@ -97,7 +96,7 @@ async def menu_videos(callback: CallbackQuery, state: FSMContext):
 
     await state.set_state(VideoSearch.waiting_query)
     await callback.message.edit_text(
-        f"🎬 <b>Видео упражнений</b> · v5\n\n"
+        f"🎬 <b>Видео упражнений</b>\n\n"
         f"В каталоге: <b>{stats['total']}</b> упражнений "
         f"(с видео: <b>{stats['with_video']}</b>).\n"
         f"Источник: sportkuznica + планы No Skip Club\n\n"
@@ -140,7 +139,7 @@ async def video_search_query(message: Message, state: FSMContext):
     query = (message.text or "").strip()
     if not query or query == "☰ Меню":
         await state.clear()
-        await message.answer("Главное меню:", reply_markup=kb.main_menu_kb())
+        await message.answer("🖤 <b>No Skip Club</b>", reply_markup=kb.main_menu_kb())
         return
 
     user = await db.get_user(message.from_user.id)

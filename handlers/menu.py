@@ -14,8 +14,7 @@ router = Router()
 
 
 def _menu_title() -> str:
-    # Метка в тексте меню: если её нет — отвечает СТАРЫЙ инстанс (его надо убить / сменить токен).
-    return "Главное меню · v5:"
+    return "🖤 <b>No Skip Club</b>"
 
 
 @router.message(Command("menu"))
