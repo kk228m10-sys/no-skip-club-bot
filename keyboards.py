@@ -77,6 +77,8 @@ def promises_kb():
 
 
 def main_menu_kb():
+    # ВАЖНО: кнопки «Материалы» здесь быть НЕ должно (v4).
+    # Если в Telegram снова видишь «Материалы» — отвечает СТАРЫЙ процесс с другим кодом.
     buttons = [
         [InlineKeyboardButton(text="📊 Мой прогресс", callback_data="menu_progress")],
         [InlineKeyboardButton(text="🏋️ План на неделю", callback_data="menu_plan")],

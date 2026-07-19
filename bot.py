@@ -1,6 +1,9 @@
 import asyncio
+import atexit
 import logging
 import os
+import sys
+from pathlib import Path
 
 from aiogram import Bot, Dispatcher
 from aiogram.client.default import DefaultBotProperties
@@ -15,6 +18,65 @@ from scheduler import setup_scheduler
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
 logger = logging.getLogger(__name__)
+
+# Защита от двух polling-процессов с одним токеном (Bothost/локально).
+# Второй процесс сразу выходит — иначе в Telegram «прыгает» старое меню с «Материалами».
+_LOCK_FH = None
+
+
+def _acquire_singleton_lock() -> None:
+    """Эксклюзивный lock-файл. На Linux — fcntl; на Windows — msvcrt."""
+    global _LOCK_FH
+    lock_path = Path(os.getenv("BOT_LOCK_PATH") or "/tmp/no_skip_club_bot.lock")
+    try:
+        lock_path.parent.mkdir(parents=True, exist_ok=True)
+    except Exception:
+        lock_path = Path("/tmp/no_skip_club_bot.lock") if os.name != "nt" else Path(os.environ.get("TEMP", ".")) / "no_skip_club_bot.lock"
+    _LOCK_FH = open(lock_path, "a+", encoding="utf-8")
+    try:
+        if os.name == "nt":
+            import msvcrt
+
+            _LOCK_FH.seek(0)
+            msvcrt.locking(_LOCK_FH.fileno(), msvcrt.LK_NBLCK, 1)
+        else:
+            import fcntl
+
+            fcntl.flock(_LOCK_FH.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
+        _LOCK_FH.seek(0)
+        _LOCK_FH.truncate()
+        _LOCK_FH.write(f"pid={os.getpid()}\n")
+        _LOCK_FH.flush()
+        logger.info("Singleton lock acquired: %s (pid=%s)", lock_path, os.getpid())
+    except OSError:
+        logger.error(
+            "Уже запущен другой процесс бота (lock %s). "
+            "Этот инстанс выходит, чтобы не было Conflict getUpdates / старого меню.",
+            lock_path,
+        )
+        try:
+            _LOCK_FH.close()
+        except Exception:
+            pass
+        sys.exit(0)
+
+    def _release():
+        try:
+            if _LOCK_FH:
+                if os.name == "nt":
+                    import msvcrt
+
+                    _LOCK_FH.seek(0)
+                    msvcrt.locking(_LOCK_FH.fileno(), msvcrt.LK_UNLCK, 1)
+                else:
+                    import fcntl
+
+                    fcntl.flock(_LOCK_FH.fileno(), fcntl.LOCK_UN)
+                _LOCK_FH.close()
+        except Exception:
+            pass
+
+    atexit.register(_release)
 
 
 async def setup_commands(bot: Bot):
@@ -44,8 +106,10 @@ async def setup_commands(bot: Bot):
 
 
 async def main():
+    _acquire_singleton_lock()
+
     # Метка сборки — по ней в логах Bothost видно, какая версия реально крутится
-    build_id = (os.getenv("BOT_BUILD") or "2026-07-19-videos-v3-bundled").strip()
+    build_id = (os.getenv("BOT_BUILD") or "2026-07-19-videos-v4-lock").strip()
     logger.info("=== No Skip Club bot start build=%s ===", build_id)
 
     await init_db()

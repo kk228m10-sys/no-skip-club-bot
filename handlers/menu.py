@@ -13,22 +13,27 @@ from content import ABOUT_TEXT, LEVELS, TRAINING_PLACES, TRAINING_TYPES
 router = Router()
 
 
+def _menu_title() -> str:
+    # Метка в тексте меню: если её нет — отвечает старый инстанс бота.
+    return "Главное меню · v4:"
+
+
 @router.message(Command("menu"))
 async def cmd_menu(message: Message, state: FSMContext):
     await state.clear()
-    await message.answer("Главное меню:", reply_markup=kb.main_menu_kb())
+    await message.answer(_menu_title(), reply_markup=kb.main_menu_kb())
 
 
 @router.message(F.text == "☰ Меню")
 async def reply_menu_button(message: Message, state: FSMContext):
     await state.clear()
-    await message.answer("Главное меню:", reply_markup=kb.main_menu_kb())
+    await message.answer(_menu_title(), reply_markup=kb.main_menu_kb())
 
 
 @router.callback_query(F.data == "menu_back")
 async def menu_back(callback: CallbackQuery, state: FSMContext):
     await state.clear()
-    await callback.message.edit_text("Главное меню:", reply_markup=kb.main_menu_kb())
+    await callback.message.edit_text(_menu_title(), reply_markup=kb.main_menu_kb())
     await callback.answer()
 
 
