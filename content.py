@@ -23,7 +23,12 @@ _PLANS_FALLBACK_URL = os.getenv(
 _training_plans_cache: dict | None = None
 
 
+# Старый incomplete training_plans ~324KB; актуальный ~380KB+.
+_MIN_PLANS_BYTES = int(os.getenv("TRAINING_PLANS_MIN_BYTES") or "350000")
+
+
 def _resolve_plans_path() -> Path | None:
+    """Берём самый большой валидный plans JSON (не первый попавшийся мелкий)."""
     env = (os.getenv("TRAINING_PLANS_PATH") or "").strip()
     candidates = []
     if env:
@@ -36,10 +41,34 @@ def _resolve_plans_path() -> Path | None:
             Path("/data") / _PLANS_NAME,
         ]
     )
+    best: Path | None = None
+    best_size = -1
     for p in candidates:
-        if p.is_file() and p.stat().st_size > 0:
-            return p
-    return None
+        try:
+            if not p.is_file():
+                continue
+            size = p.stat().st_size
+            if size < 100:
+                continue
+            if size < _MIN_PLANS_BYTES:
+                logger.warning(
+                    "Планы %s слишком маленькие (%s < %s) — пропускаю (возможен старый файл на Volume)",
+                    p,
+                    size,
+                    _MIN_PLANS_BYTES,
+                )
+                continue
+            # быстрая проверка JSON
+            with open(p, encoding="utf-8") as f:
+                raw = json.load(f)
+            if not isinstance(raw, dict) or not raw:
+                continue
+            if size > best_size:
+                best = p
+                best_size = size
+        except Exception as e:
+            logger.warning("Планы %s битые: %s", p, e)
+    return best
 
 
 def _ensure_plans_file() -> Path | None:
@@ -52,21 +81,32 @@ def _ensure_plans_file() -> Path | None:
     url = _PLANS_FALLBACK_URL
     if not url:
         return None
+    try:
+        logger.info("Планы тренировок: скачиваю fallback %s", url)
+        req = urllib.request.Request(url, headers={"User-Agent": "NoSkipClubBot/1.0"})
+        with urllib.request.urlopen(req, timeout=60) as resp:
+            data = resp.read()
+        if not data or len(data) < _MIN_PLANS_BYTES:
+            raise RuntimeError(
+                f"Fallback plans слишком мал: {len(data) if data else 0} < {_MIN_PLANS_BYTES}"
+            )
+        raw = json.loads(data.decode("utf-8"))
+        if not isinstance(raw, dict) or not raw:
+            raise RuntimeError("Fallback plans: ожидался непустой JSON-объект")
+    except Exception as e:
+        logger.error("Не удалось скачать/проверить fallback планы: %s", e)
+        return None
+
     for target in (
         _BASE_DIR / "data" / _PLANS_NAME,
-        Path("/tmp") / _PLANS_NAME,
         Path.cwd() / "data" / _PLANS_NAME,
+        Path("/tmp") / _PLANS_NAME,
     ):
         try:
             target.parent.mkdir(parents=True, exist_ok=True)
-            logger.info("Планы тренировок: скачиваю fallback %s → %s", url, target)
-            req = urllib.request.Request(url, headers={"User-Agent": "NoSkipClubBot/1.0"})
-            with urllib.request.urlopen(req, timeout=60) as resp:
-                data = resp.read()
-            if not data or len(data) < 100:
-                raise RuntimeError(f"Пустой ответ ({len(data)} bytes)")
             target.write_bytes(data)
             TRAINING_PLANS_PATH = target
+            logger.info("Планы тренировок сохранены: %s (%s bytes)", target, len(data))
             return target
         except Exception as e:
             logger.warning("Не удалось сохранить планы в %s: %s", target, e)

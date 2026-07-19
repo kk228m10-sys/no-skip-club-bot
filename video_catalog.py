@@ -21,6 +21,10 @@ logger = logging.getLogger(__name__)
 _BASE_DIR = Path(__file__).resolve().parent
 _CATALOG_NAME = "sportkuznica_exercises.json"
 
+# Минимальный «здоровый» каталог. Меньше — считаем файл битым/устаревшим
+# и пробуем другой путь / GitHub fallback (чтобы не «схлопывался» после рестарта).
+_MIN_CATALOG_ITEMS = int(os.getenv("VIDEO_CATALOG_MIN_ITEMS") or "100")
+
 # Fallback: если data/ не попала на хостинг — качаем с публичного GitHub.
 _CATALOG_FALLBACK_URL = os.getenv(
     "VIDEO_CATALOG_URL",
@@ -53,11 +57,44 @@ def _candidate_paths() -> list[Path]:
     return out
 
 
+def _peek_catalog_count(path: Path) -> int | None:
+    """Сколько валидных записей в JSON (None = не удалось прочитать)."""
+    try:
+        if not path.is_file() or path.stat().st_size < 100:
+            return None
+        with open(path, encoding="utf-8") as f:
+            raw = json.load(f)
+        if not isinstance(raw, list):
+            return None
+        return sum(1 for row in raw if isinstance(row, dict) and row.get("id") and not row.get("error"))
+    except Exception:
+        return None
+
+
 def resolve_data_path() -> Path | None:
+    """Выбираем самый полный валидный каталог среди кандидатов.
+
+    Раньше брался первый существующий файл — на хостинге пустой/старый
+    файл на Volume (/data) мог перебить полный data/ из деплоя.
+    """
+    best: Path | None = None
+    best_count = -1
     for p in _candidate_paths():
-        if p.is_file() and p.stat().st_size > 0:
-            return p
-    return None
+        count = _peek_catalog_count(p)
+        if count is None:
+            continue
+        if count < _MIN_CATALOG_ITEMS:
+            logger.warning(
+                "Каталог %s слишком мал (%s < %s) — пропускаю",
+                p,
+                count,
+                _MIN_CATALOG_ITEMS,
+            )
+            continue
+        if count > best_count:
+            best = p
+            best_count = count
+    return best
 
 
 DATA_PATH = _BASE_DIR / "data" / _CATALOG_NAME  # default (may be overridden at load)
@@ -91,6 +128,19 @@ def _norm(text: str) -> str:
     return text
 
 
+def _validate_catalog_bytes(data: bytes) -> int:
+    """Проверяет, что bytes — JSON-массив достаточного размера. Возвращает count."""
+    if not data or len(data) < 100:
+        raise RuntimeError(f"Пустой ответ fallback ({len(data) if data else 0} bytes)")
+    raw = json.loads(data.decode("utf-8"))
+    if not isinstance(raw, list):
+        raise RuntimeError(f"Fallback: ожидался JSON-массив, получено {type(raw)}")
+    count = sum(1 for row in raw if isinstance(row, dict) and row.get("id") and not row.get("error"))
+    if count < _MIN_CATALOG_ITEMS:
+        raise RuntimeError(f"Fallback каталог слишком мал: {count} < {_MIN_CATALOG_ITEMS}")
+    return count
+
+
 def _ensure_catalog_file() -> Path | None:
     """Находит локальный JSON или скачивает fallback с GitHub."""
     global DATA_PATH
@@ -99,11 +149,13 @@ def _ensure_catalog_file() -> Path | None:
         DATA_PATH = found
         return found
 
-    # Сохраняем рядом с кодом (или в /tmp, если data/ read-only)
+    # Сохраняем рядом с кодом (или в /tmp, если data/ read-only).
+    # /tmp предпочтительнее Volume /data — volume часто переживает редеплой
+    # со старым/пустым файлом и снова «ломал» каталог.
     targets = [
         _BASE_DIR / "data" / _CATALOG_NAME,
-        Path("/tmp") / _CATALOG_NAME,
         Path.cwd() / "data" / _CATALOG_NAME,
+        Path("/tmp") / _CATALOG_NAME,
     ]
     url = _CATALOG_FALLBACK_URL
     if not url:
@@ -111,24 +163,33 @@ def _ensure_catalog_file() -> Path | None:
         return None
 
     last_err: Exception | None = None
+    try:
+        logger.info("Каталог видео: скачиваю fallback %s", url)
+        req = urllib.request.Request(url, headers={"User-Agent": "NoSkipClubBot/1.0"})
+        with urllib.request.urlopen(req, timeout=60) as resp:
+            data = resp.read()
+        count = _validate_catalog_bytes(data)
+    except Exception as e:
+        logger.error("Не удалось скачать/проверить fallback каталог: %s", e)
+        return None
+
     for target in targets:
         try:
             target.parent.mkdir(parents=True, exist_ok=True)
-            logger.info("Каталог видео: скачиваю fallback %s → %s", url, target)
-            req = urllib.request.Request(url, headers={"User-Agent": "NoSkipClubBot/1.0"})
-            with urllib.request.urlopen(req, timeout=60) as resp:
-                data = resp.read()
-            if not data or len(data) < 100:
-                raise RuntimeError(f"Пустой ответ fallback ({len(data)} bytes)")
             target.write_bytes(data)
             DATA_PATH = target
-            logger.info("Каталог видео сохранён: %s (%s bytes)", target, len(data))
+            logger.info(
+                "Каталог видео сохранён: %s (%s bytes, %s items)",
+                target,
+                len(data),
+                count,
+            )
             return target
         except Exception as e:
             last_err = e
             logger.warning("Не удалось сохранить каталог в %s: %s", target, e)
 
-    logger.error("Не удалось получить каталог видео: %s", last_err)
+    logger.error("Не удалось сохранить каталог видео: %s", last_err)
     return None
 
 

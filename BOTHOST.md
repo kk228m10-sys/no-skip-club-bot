@@ -95,5 +95,13 @@
 | Пропали пользователи | Volume + `DB_PATH` |
 | ИИ/фото не работают | `MISTRAL_API_KEY` в Env |
 | Admin-команды не видны | `ADMIN_CHAT_ID` — числовой id, не username |
+| После рестарта всё ок, потом снова «Материалы» / мало видео | Крутится **старая сборка** или на Volume старый JSON. **Перезалей свежий ZIP** (или Redeploy с GitHub `main`). В логах: `build=2026-07-19-videos-v2`, каталог **~277**. Кнопки «Материалы» быть не должно. Старые `sportkuznica_exercises.json` / `training_plans.json` на `/data` можно удалить (базу `no_skip.db` не трогай). |
+
+### Как проверить новую версию
+
+1. Restart → **Logs**
+2. Строка: `=== No Skip Club bot start build=2026-07-19-videos-v2 ===`
+3. Строка: `Каталог видео: 277` (или около)
+4. В Telegram `/menu` — есть «🎬 Видео упражнений», **нет** «Материалы (фото/видео)»
 
 Поддержка Bothost: https://t.me/bothostru · support@bothost.ru

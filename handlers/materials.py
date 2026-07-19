@@ -1,4 +1,4 @@
-from aiogram import Router, F, Bot
+from aiogram import Router, F
 from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 from aiogram.types import CallbackQuery, Message, InlineKeyboardMarkup, InlineKeyboardButton
@@ -181,17 +181,6 @@ async def video_detail(callback: CallbackQuery, state: FSMContext):
 
 
 @router.callback_query(F.data == "menu_media")
-async def menu_media(callback: CallbackQuery, state: FSMContext, bot: Bot):
-    """Кнопка «Материалы» убрана из меню — старые сообщения ведём в каталог видео."""
+async def menu_media(callback: CallbackQuery, state: FSMContext):
+    """Старые сообщения с кнопкой «Материалы» → каталог видео (кнопки в меню уже нет)."""
     await menu_videos(callback, state)
-    await callback.answer()
-
-    for m in materials:
-        caption = m.get("caption") or ""
-        try:
-            if m["media_type"] == "photo":
-                await bot.send_photo(callback.from_user.id, m["file_id"], caption=caption)
-            elif m["media_type"] == "video":
-                await bot.send_video(callback.from_user.id, m["file_id"], caption=caption)
-        except Exception:
-            continue

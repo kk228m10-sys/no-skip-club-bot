@@ -1,5 +1,6 @@
 import asyncio
 import logging
+import os
 
 from aiogram import Bot, Dispatcher
 from aiogram.client.default import DefaultBotProperties
@@ -43,6 +44,10 @@ async def setup_commands(bot: Bot):
 
 
 async def main():
+    # Метка сборки — по ней в логах Bothost видно, какая версия реально крутится
+    build_id = (os.getenv("BOT_BUILD") or "2026-07-19-videos-v2").strip()
+    logger.info("=== No Skip Club bot start build=%s ===", build_id)
+
     await init_db()
     logger.info("База данных готова: %s", config.DB_PATH)
 
@@ -72,6 +77,12 @@ async def main():
             logger.error(
                 "Каталог видео ПУСТ. Проверь data/sportkuznica_exercises.json "
                 "или доступ в интернет для fallback GitHub."
+            )
+        elif stats["total"] < 100:
+            logger.error(
+                "Каталог видео подозрительно мал (%s). Вероятен старый файл на Volume — "
+                "перезалей data/ или удали битый JSON на /data.",
+                stats["total"],
             )
     except Exception as e:
         logger.exception("Каталог видео не загрузился: %s", e)
