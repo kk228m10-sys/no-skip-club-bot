@@ -180,9 +180,78 @@ async def main():
         config.TIMEZONE,
     )
 
-    await bot.delete_webhook(drop_pending_updates=True)
-    logger.info("Бот запущен (polling). Останови через Ctrl+C.")
-    await dp.start_polling(bot)
+    # --- режим приёма апдейтов ---
+    # Webhook: единственный способ «убить» чужой polling с тем же токеном.
+    # Bothost: DOMAIN или BOT_ID → https://bot-xxx.bothost.tech/webhook
+    port = int((os.getenv("PORT") or "0").strip() or "0")
+    domain = (os.getenv("DOMAIN") or os.getenv("BOTHOST_DOMAIN") or "").strip().rstrip("/")
+    bot_id_env = (os.getenv("BOT_ID") or "").strip()
+    webhook_url = (os.getenv("WEBHOOK_URL") or "").strip()
+    if not webhook_url and domain:
+        if not domain.startswith("http"):
+            domain = "https://" + domain
+        webhook_url = domain.rstrip("/") + "/webhook"
+    if not webhook_url and bot_id_env and port:
+        # auto bothost.tech subdomain ( _ → - )
+        host = bot_id_env.replace("_", "-") + ".bothost.tech"
+        webhook_url = f"https://{host}/webhook"
+
+    use_webhook = bool(webhook_url) and (
+        (os.getenv("USE_WEBHOOK") or "auto").strip().lower() not in ("0", "false", "no", "polling")
+    )
+    # если DOMAIN/BOT_ID есть — предпочитаем webhook; иначе polling
+    if not domain and not bot_id_env and not (os.getenv("WEBHOOK_URL") or "").strip():
+        use_webhook = False
+    if (os.getenv("USE_WEBHOOK") or "").strip().lower() in ("1", "true", "yes", "webhook"):
+        use_webhook = True
+        if not webhook_url and bot_id_env:
+            host = bot_id_env.replace("_", "-") + ".bothost.tech"
+            webhook_url = f"https://{host}/webhook"
+        if not port:
+            port = 3000
+
+    if use_webhook and webhook_url:
+        from aiohttp import web
+        from aiogram.webhook.aiohttp_server import SimpleRequestHandler, setup_application
+
+        listen_port = port or int((os.getenv("PORT") or "3000").strip() or "3000")
+        path = "/webhook"
+        if webhook_url.rstrip("/").endswith("/webhook"):
+            path = "/webhook"
+
+        async def on_startup(app_):
+            await bot.set_webhook(webhook_url, drop_pending_updates=True)
+            logger.info("Webhook set: %s (listen 0.0.0.0:%s path=%s)", webhook_url, listen_port, path)
+
+        async def on_shutdown(app_):
+            try:
+                await bot.delete_webhook(drop_pending_updates=False)
+            except Exception as e:
+                logger.warning("delete_webhook: %s", e)
+            await bot.session.close()
+
+        app = web.Application()
+        app.on_startup.append(on_startup)
+        app.on_shutdown.append(on_shutdown)
+
+        async def health(_request):
+            return web.Response(text="ok v5 webhook")
+
+        app.router.add_get("/", health)
+        app.router.add_get("/health", health)
+
+        SimpleRequestHandler(dispatcher=dp, bot=bot).register(app, path=path)
+        setup_application(app, dp, bot=bot)
+        logger.info(
+            "Бот запущен (WEBHOOK). Чужой polling с этим токеном больше не сможет отвечать. url=%s",
+            webhook_url,
+        )
+        # внутри уже запущенного asyncio-loop нельзя вызывать web.run_app()
+        await web._run_app(app, host="0.0.0.0", port=listen_port)
+    else:
+        await bot.delete_webhook(drop_pending_updates=True)
+        logger.info("Бот запущен (polling). Останови через Ctrl+C.")
+        await dp.start_polling(bot)
 
 
 if __name__ == "__main__":
