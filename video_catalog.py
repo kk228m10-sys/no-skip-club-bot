@@ -33,15 +33,26 @@ _CATALOG_FALLBACK_URL = os.getenv(
 
 
 def _candidate_paths() -> list[Path]:
-    """Где может лежать JSON на ПК / Docker / Bothost."""
+    """Где может лежать JSON на ПК / Docker / Bothost.
+
+    Важно: на Bothost `/app/data` — persistent volume, **не** обновляется из Git.
+    Поэтому bundled_data/ (из репозитория) ищем ПЕРЕД /app/data, иначе старый
+    урезанный каталог на volume «переживает» любой redeploy.
+    """
     env = (os.getenv("VIDEO_CATALOG_PATH") or "").strip()
     paths: list[Path] = []
     if env:
         paths.append(Path(env))
     paths.extend(
         [
+            # Актуальный каталог из Git (не маскируется volume Bothost)
+            _BASE_DIR / "bundled_data" / _CATALOG_NAME,
+            Path.cwd() / "bundled_data" / _CATALOG_NAME,
+            Path("/usr/src/app/bundled_data") / _CATALOG_NAME,
+            # Локальная/legacy data/
             _BASE_DIR / "data" / _CATALOG_NAME,
             Path.cwd() / "data" / _CATALOG_NAME,
+            # Volume Bothost — только fallback, если bundled нет
             Path("/app/data") / _CATALOG_NAME,
             Path("/data") / _CATALOG_NAME,
         ]
@@ -149,12 +160,10 @@ def _ensure_catalog_file() -> Path | None:
         DATA_PATH = found
         return found
 
-    # Сохраняем рядом с кодом (или в /tmp, если data/ read-only).
-    # /tmp предпочтительнее Volume /data — volume часто переживает редеплой
-    # со старым/пустым файлом и снова «ломал» каталог.
+    # Не пишем fallback в /app/data — volume Bothost потом «залипает» на старом файле.
     targets = [
-        _BASE_DIR / "data" / _CATALOG_NAME,
-        Path.cwd() / "data" / _CATALOG_NAME,
+        _BASE_DIR / "bundled_data" / _CATALOG_NAME,
+        Path.cwd() / "bundled_data" / _CATALOG_NAME,
         Path("/tmp") / _CATALOG_NAME,
     ]
     url = _CATALOG_FALLBACK_URL

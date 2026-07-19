@@ -56,7 +56,7 @@
 | `MISTRAL_API_KEY` | ключ Mistral |
 | `MISTRAL_MODEL` | `mistral-small-latest` |
 | `MISTRAL_VISION_MODEL` | `pixtral-12b-2409` |
-| `DB_PATH` | `/data/no_skip.db` (если есть Volume на `/data`) |
+| `DB_PATH` | `/app/data/no_skip.db` (Bothost volume; **не** клади JSON-каталоги в `/app/data`) |
 
 `WEBAPP_URL` можно не задавать — персонаж выключен.
 

@@ -45,7 +45,7 @@ async def setup_commands(bot: Bot):
 
 async def main():
     # Метка сборки — по ней в логах Bothost видно, какая версия реально крутится
-    build_id = (os.getenv("BOT_BUILD") or "2026-07-19-videos-v2").strip()
+    build_id = (os.getenv("BOT_BUILD") or "2026-07-19-videos-v3-bundled").strip()
     logger.info("=== No Skip Club bot start build=%s ===", build_id)
 
     await init_db()

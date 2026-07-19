@@ -35,8 +35,13 @@ def _resolve_plans_path() -> Path | None:
         candidates.append(Path(env))
     candidates.extend(
         [
+            # Из Git (не перекрывается Bothost volume /app/data)
+            _BASE_DIR / "bundled_data" / _PLANS_NAME,
+            Path.cwd() / "bundled_data" / _PLANS_NAME,
+            Path("/usr/src/app/bundled_data") / _PLANS_NAME,
             _BASE_DIR / "data" / _PLANS_NAME,
             Path.cwd() / "data" / _PLANS_NAME,
+            # Volume — только fallback
             Path("/app/data") / _PLANS_NAME,
             Path("/data") / _PLANS_NAME,
         ]
@@ -98,8 +103,8 @@ def _ensure_plans_file() -> Path | None:
         return None
 
     for target in (
-        _BASE_DIR / "data" / _PLANS_NAME,
-        Path.cwd() / "data" / _PLANS_NAME,
+        _BASE_DIR / "bundled_data" / _PLANS_NAME,
+        Path.cwd() / "bundled_data" / _PLANS_NAME,
         Path("/tmp") / _PLANS_NAME,
     ):
         try:
