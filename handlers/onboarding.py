@@ -55,7 +55,7 @@ async def cmd_start(message: Message, state: FSMContext):
             f"С возвращением 👊 Ты уже в клубе.",
             reply_markup=kb.persistent_menu_kb(),
         )
-        await message.answer("Главное меню:", reply_markup=kb.main_menu_kb())
+        await message.answer("Главное меню · v5:", reply_markup=kb.main_menu_kb())
         return
 
     await state.clear()
@@ -250,4 +250,4 @@ async def finish_onboarding(message: Message, state: FSMContext, promise: str, t
         f"Добро пожаловать в клуб. Дальше — только держать слово.",
         reply_markup=kb.persistent_menu_kb(),
     )
-    await message.answer("Открыть меню:", reply_markup=kb.main_menu_kb())
+    await message.answer("Главное меню · v5:", reply_markup=kb.main_menu_kb())

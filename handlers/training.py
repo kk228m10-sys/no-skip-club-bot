@@ -18,11 +18,46 @@ class ChangeTypes(StatesGroup):
     waiting_types = State()
 
 
+def _ensure_catalog():
+    """Гарантируем, что каталог в памяти (на хостинге после рестарта мог быть пуст)."""
+    stats = vc.catalog_stats()
+    if stats["total"] < 50:
+        vc.load_catalog(force=True)
+        stats = vc.catalog_stats()
+    return stats
+
+
 def _video_for_exercise(ex: dict, place: str | None = None):
-    """Сначала video_url из упражнения (уже привязан), иначе поиск в каталоге."""
+    """Всегда пытаемся найти видео в каталоге; plan.video_url — только запасной вариант."""
+    _ensure_catalog()
+    name = (ex.get("name") or "").strip()
+    if not name:
+        return None
+    found = vc.find_video(name, place=place)
+    if found and found.get("video_url"):
+        # освежаем в плане на месте
+        ex["video_url"] = found["video_url"]
+        ex["video_title"] = found.get("title")
+        return {"video_url": found["video_url"], "title": found.get("title") or name}
     if ex.get("video_url"):
-        return {"video_url": ex["video_url"], "title": ex.get("video_title") or ex["name"]}
-    return vc.find_video(ex["name"], place=place)
+        return {"video_url": ex["video_url"], "title": ex.get("video_title") or name}
+    return None
+
+
+def _reattach_plan_videos(plan: dict, place: str | None = None) -> int:
+    """Проставляет video_url всем упражнениям плана. Возвращает сколько с видео."""
+    _ensure_catalog()
+    bound = 0
+    for day_data in plan.values():
+        if not isinstance(day_data, dict) or day_data.get("rest"):
+            continue
+        for ex in day_data.get("exercises") or []:
+            if not isinstance(ex, dict) or not ex.get("name"):
+                continue
+            video = _video_for_exercise(ex, place=place)
+            if video and video.get("video_url"):
+                bound += 1
+    return bound
 
 
 def format_day_plan(day_name: str, day_data: dict, place: str | None = None) -> str:
@@ -30,8 +65,8 @@ def format_day_plan(day_name: str, day_data: dict, place: str | None = None) -> 
         return f"📅 <b>{day_name}</b>\nДень отдыха.\n{REST_DAY_TIP}"
 
     lines = [f"📅 <b>{day_name}</b> — день тренировки\n"]
-    for ex in day_data["exercises"]:
-        block = f"• <b>{ex['name']}</b> — {ex['sets']}\n  {ex['technique']}"
+    for ex in day_data.get("exercises") or []:
+        block = f"• <b>{ex['name']}</b> — {ex.get('sets', '')}\n  {ex.get('technique', '')}"
         video = _video_for_exercise(ex, place=place)
         if video and video.get("video_url"):
             block += f"\n  ▶️ <a href=\"{video['video_url']}\">Видео техники</a>"
@@ -59,10 +94,18 @@ async def get_or_refresh_plan(telegram_id: int, level: str, training_days_raw, d
         # план устарел (новая неделя) — генерируем новый под текущий уровень/место/виды
         training_days = json.loads(training_days_raw) if training_days_raw else None
         plan = generate_weekly_plan(level, place, training_types, training_days=training_days, days_per_week=days_per_week)
+        _reattach_plan_videos(plan, place=place)
         await db.save_weekly_plan(telegram_id, week_start.isoformat(), plan)
         return plan
 
-    return plan_row["plan"]
+    plan = plan_row["plan"]
+    # каждый показ — заново цепляем видео из актуального каталога (даже к старым планам в БД)
+    _reattach_plan_videos(plan, place=place)
+    try:
+        await db.save_weekly_plan(telegram_id, plan_row["week_start"], plan)
+    except Exception:
+        pass
+    return plan
 
 
 @router.callback_query(F.data == "menu_plan")

@@ -125,7 +125,7 @@ async def main():
     _acquire_singleton_lock()
 
     # Метка сборки — по ней в логах Bothost видно, какая версия реально крутится
-    build_id = (os.getenv("BOT_BUILD") or "2026-07-19-videos-v4-lock").strip()
+    build_id = (os.getenv("BOT_BUILD") or "2026-07-19-videos-v5-clean").strip()
     logger.info("=== No Skip Club bot start build=%s ===", build_id)
 
     await init_db()

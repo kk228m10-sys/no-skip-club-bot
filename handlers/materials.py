@@ -79,11 +79,17 @@ async def menu_exercises(callback: CallbackQuery):
 
 @router.callback_query(F.data == "menu_videos")
 async def menu_videos(callback: CallbackQuery, state: FSMContext):
+    # force-reload если пусто/мало (старый volume или гонка старта)
     stats = vc.catalog_stats()
+    if stats["total"] < 50:
+        vc.load_catalog(force=True)
+        stats = vc.catalog_stats()
+
     if stats["total"] == 0:
         await callback.message.edit_text(
-            "🎬 <b>Видео упражнений</b>\n\n"
-            "Каталог ещё не загружен. Скажи тренеру — нужно запустить сбор с sportkuznica.com.",
+            "🎬 <b>Видео упражнений</b> · v5\n\n"
+            "Каталог пуст на этом инстансе. Напиши тренеру — нужен redeploy / проверка data.\n"
+            f"path: <code>{stats.get('path') or '—'}</code>",
             reply_markup=kb.back_to_menu_kb(),
         )
         await callback.answer()
@@ -91,10 +97,10 @@ async def menu_videos(callback: CallbackQuery, state: FSMContext):
 
     await state.set_state(VideoSearch.waiting_query)
     await callback.message.edit_text(
-        f"🎬 <b>Видео упражнений</b>\n\n"
+        f"🎬 <b>Видео упражнений</b> · v5\n\n"
         f"В каталоге: <b>{stats['total']}</b> упражнений "
-        f"(с видео: {stats['with_video']}).\n"
-        f"Источник: sportkuznica.com\n\n"
+        f"(с видео: <b>{stats['with_video']}</b>).\n"
+        f"Источник: sportkuznica + планы No Skip Club\n\n"
         f"Напиши название упражнения (например: «отжимания», «присед», «махи гирей») "
         f"— пришлю ссылку на технику.",
         reply_markup=InlineKeyboardMarkup(
