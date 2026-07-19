@@ -25,13 +25,29 @@ _LOCK_FH = None
 
 
 def _acquire_singleton_lock() -> None:
-    """Эксклюзивный lock-файл. На Linux — fcntl; на Windows — msvcrt."""
+    """Эксклюзивный lock-файл. На Linux — fcntl; на Windows — msvcrt.
+
+    На Bothost предпочитаем /app/data (volume) — общий для процессов/рестартов.
+    """
     global _LOCK_FH
-    lock_path = Path(os.getenv("BOT_LOCK_PATH") or "/tmp/no_skip_club_bot.lock")
-    try:
-        lock_path.parent.mkdir(parents=True, exist_ok=True)
-    except Exception:
-        lock_path = Path("/tmp/no_skip_club_bot.lock") if os.name != "nt" else Path(os.environ.get("TEMP", ".")) / "no_skip_club_bot.lock"
+    candidates = []
+    if os.getenv("BOT_LOCK_PATH"):
+        candidates.append(Path(os.getenv("BOT_LOCK_PATH")))
+    candidates.extend(
+        [
+            Path("/app/data/no_skip_club_bot.lock"),
+            Path("/tmp/no_skip_club_bot.lock"),
+            Path(os.environ.get("TEMP", ".")) / "no_skip_club_bot.lock",
+        ]
+    )
+    lock_path = candidates[-1]
+    for cand in candidates:
+        try:
+            cand.parent.mkdir(parents=True, exist_ok=True)
+            lock_path = cand
+            break
+        except Exception:
+            continue
     _LOCK_FH = open(lock_path, "a+", encoding="utf-8")
     try:
         if os.name == "nt":
